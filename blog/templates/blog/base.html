@@ -1,0 +1,222 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>{% block title %} Мой сайт {% endblock %}</title>
+	<link rel="stylesheet" href="{% static 'blog/css/style.css' %}">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+
+			<div class="auth-header ">
+				<div class="auth-header__container _container">
+					<div class="auth-header__items">
+						{% if request.user.is_authenticated %}
+						{% if user.first_name %}
+
+						<a href="{% url 'accounts:logout' %}" class="auth-header__item"
+							title="Тыкни чтобы выйти">{{ user.first_name }} {{ user.last_name }}</a>
+						{% else %}
+						<a href="{% url 'accounts:logout' %}" class="auth-header__item"
+							title="Тыкни чтобы выйти">{{ user.name }}</a>
+						{% endif %}
+						{% else %}
+						<a href="{% url 'accounts:register' %}" class="auth-header__item">Регистрация</a>
+						<a href="{% url 'accounts:login' %}" class="auth-header__item">Логин</a>
+						<a href="/login/vk-oauth2" class="auth-header__item auth-header__item_vk"><img
+								src="{% static 'blog/img/icons/social/vk_icon.svg' %}" alt="Вход через ВК"></a>
+						{% endif %}
+					</div>
+				</div>
+			</div>
+			<div class="header__main">
+				<div class="header__content _container">
+					<div class="header__column ">
+						<a href="" class="header__logo">
+							<img src="{% static 'blog/img/icons/social/vk_icon.svg' %}" alt="">
+						</a>
+					</div>
+					<div class="header__column">
+						<nav class="header__menu">
+							<ul class="header__list">
+								<li><a href="{% url 'blog:home' %}" class="header__link">Главная</a></li>
+								<li><a href="{% url 'blog:history' %}" class="header__link">История</a></li>
+								<li><a href="{% url 'blog:about' %}" class="header__link">О нас</a></li>
+								<!--<li><a href="" class="header__link">Контакты</a></li>-->
+							</ul>
+						</nav>
+					</div>
+					<div class="header__column">
+						<form class="header__search-form" action="{% url 'blog:search_in_articles' %}" method="get">
+							<input class="header__search-input" name="q" type="text" placeholder="Запрос...">
+							<input class="header__search-submit" type="image"
+								src="{% static 'blog/img/icons/searh_icon.png' %}" alt="">
+						</form>
+					</div>
+				</div>
+			</div>
+		</header>
+
+		<main class="page">
+
+
+			{% if messages %}
+
+			{% for message in messages %}
+			<div class="messege- {{ message.tags }}">
+				{{ message }}
+			</div>
+			{% endfor %}
+
+			{% endif %}
+
+			{% block content %}
+
+			{% endblock %}
+
+		</main>
+
+		<footer class="footer">
+
+			<div class="footer__content _container">
+				<div class="footer__column">
+					<div class="footer__item">
+						<div class="contact-footer">
+							<div class="contact-footer__logo">
+								<img src="{% static 'blog/img/icons/social/vk_icon.svg' %}" alt="">
+							</div>
+							<div class="contact-footer__info">
+								<div class="contact-footer__items">
+									<div class="contact-footer__column">
+										<div class="contact-footer__item">
+											<div class="contact-footer__title">Email:</div>
+											<a href="mailto:Educate.support@info.com"
+												class="contact-footer__text contact-footer__text_email">Educate.support@info.com</a>
+										</div>
+									</div>
+									<div class="contact-footer__column">
+										<div class="contact-footer__item">
+											<div class="contact-footer__title">Call directly:</div>
+											<a href="tel:88111555666"
+												class="contact-footer__text contact-footer__text_text-phone">(+88)
+												111
+												555
+												666</a>
+										</div>
+									</div>
+									<div class="contact-footer__column">
+										<div class="contact-footer__item">
+											<div class="contact-footer__title">Address:</div>
+											<div class="contact-footer__text contact-footer__text_adress">40 Baria Sreet 133/2
+												NewYork
+												City,
+												US</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="footer__column">
+					<div class="footer__item">
+						<div class="posts-footer">
+							<div class="posts-footer__title _title-footer">Recent Posts</div>
+							<div class="posts-footer__items">
+								<div class="posts-footer__column">
+									<a href="" class="posts-footer__post">
+										<div class="posts-footer__post-title">How to get better at learning</div>
+										<div class="posts-footer__pub-date">December 05, 2018</div>
+									</a>
+								</div>
+								<div class="posts-footer__column">
+									<a href="" class="posts-footer__post">
+										<div class="posts-footer__post-title">How to get better at learning</div>
+										<div class="posts-footer__pub-date">December 05, 2018</div>
+									</a>
+								</div>
+								<div class="posts-footer__column">
+									<a href="" class="posts-footer__post">
+										<div class="posts-footer__post-title">How to get better at learning</div>
+										<div class="posts-footer__pub-date">December 05, 2018</div>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="footer__column">
+					<div class="footer__item">
+						<div class="galery-footer">
+							<div class="galery-footer__title _title-footer">Our Gallery</div>
+							<div class="galery-footer__items">
+								<div class="galery-footer__column">
+									<a href="" class="galery-footer__item">
+										<img src="{% static 'blog/img/footer/galety.jpg' %}" alt="">
+									</a>
+								</div>
+								<div class="galery-footer__column">
+									<a href="" class="galery-footer__item">
+										<img src="{% static 'blog/img/footer/galety.jpg' %}" alt="">
+									</a>
+								</div>
+								<div class="galery-footer__column">
+									<a href="" class="galery-footer__item">
+										<img src="{% static 'blog/img/footer/galety.jpg' %}" alt="">
+									</a>
+								</div>
+								<div class="galery-footer__column">
+									<a href="" class="galery-footer__item">
+										<img src="{% static 'blog/img/footer/galety.jpg' %}" alt="">
+									</a>
+								</div>
+								<div class="galery-footer__column">
+									<a href="" class="galery-footer__item">
+										<img src="{% static 'blog/img/footer/galety.jpg' %}" alt="">
+									</a>
+								</div>
+								<div class="galery-footer__column">
+									<a href="" class="galery-footer__item">
+										<img src="{% static 'blog/img/footer/galety.jpg' %}" alt="">
+									</a>
+								</div>
+								<div class="galery-footer__column">
+									<a href="" class="galery-footer__item">
+										<img src="{% static 'blog/img/footer/galety.jpg' %}" alt="">
+									</a>
+								</div>
+								<div class="galery-footer__column">
+									<a href="" class="galery-footer__item">
+										<img src="{% static 'blog/img/footer/galety.jpg' %}" alt="">
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="license-footer">
+				<div class="license-footer__container _container">
+					<div class="license-footer__body">
+						<div class="license-footer__copyrigth">Copyright 2020 Каратист - All Right Reserved</div>
+						<ul class="license-footer__info-list">
+							<li><a href="" class="license-footer__link">Policy</a></li>
+							<li><a href="" class="license-footer__link">Term & Conditions</a></li>
+							<li><a href="" class="license-footer__link">Help </a></li>
+							<li><a href="" class="license-footer__link">FAQ</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</footer>
+
+
+	</div>
+</body>
+
+</html>

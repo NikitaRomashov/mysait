@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+</head>
+
+<body>
+	<form action="{% url 'send_email:success' %}" id="form" method="POST">
+		{% csrf_token %}
+		<input  type="email" name="email_adress" id="email_adress" required placeholder="Введите email"><br>
+		<textarea name="email_massege" id="" cols="30" rows="10" required placeholder="Введите текст"></textarea> <br>
+		<button type="submit">Отправить</button>
+	</form>
+</body>
+
+</html>

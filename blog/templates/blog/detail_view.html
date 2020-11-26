@@ -1,0 +1,50 @@
+{% extends 'blog/base.html' %}
+
+{% block title %} {{ article.article_title }} {% endblock %}
+
+{% block content %}
+<h1>{{ article.article_title }}</h1>
+{% if article.was_published_recently %}
+ <h2>Новая статья!</h2> 
+{% endif%}
+<em>{{ article.article_date }}</em>
+<p>{{article.article_text}}</p>
+
+
+
+{% for articleImage in article_images %}
+<img src="{{ MEDIA_URL }}{{ articleImage.image.url }}" ">
+{% endfor %}
+
+
+
+<hr>
+
+	{% if latest_comments_list %}
+		{% for comment in latest_comments_list %}
+			<p>
+				<strong>{{ comment.comment_autor }}</strong>
+				<p>{{ comment.comment_text }}</p>
+				<em>{{comment.comment_date}}</em>
+			</p>
+		{% endfor %}
+	{% else %}
+		Комментарий не найдены!
+	{% endif %}
+
+<hr>
+
+
+	{% if request.user.is_authenticated %}
+		<form action="{% url 'blog:leave_comment' article.id %}" method="POST">
+			{% csrf_token %}
+
+			<textarea name="text" id="" cols="30" rows="10" required placeholder="Введите текст"></textarea> <br>
+			<button type="submit">Оставить комментарий</button> <br>
+
+		</form>
+	{% else %}
+		Только зарегистрированные пользователи могут оставлять комментарии <br>
+		<a href="{% url 'accounts:register' %}">Регистрация</a> | <a href="{% url 'accounts:login' %}">Логин</a> | <a href="/login/vk-oauth2">Вход через ВК</a>
+	{% endif %}
+{% endblock %}
