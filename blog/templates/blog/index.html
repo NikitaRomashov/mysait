@@ -1,5 +1,5 @@
 {% extends 'blog/base.html' %}
-
+{% load static %}
 {% block title %} {{ article_title }} {% endblock %}
 
 {% block content %}
@@ -17,39 +17,94 @@
 		Статьи не найдены
 	{% endif %}
 	!!! { % include 'inc/_sidebar.html' % } Для отдельного подключения навигации
+
+
 -->
 
 
-{% if articles %}
 
-{% for article in articles %}
-<a href="{% url 'blog:article-detail' article.id %}">{{article.article_title}}</a>
-<p>{{article.article_text}}</p>
-{% for articleImage in article.images.all %}
-<img src="{{ MEDIA_URL }}{{ articleImage.image.url }}" ">
-		{% endfor %}
-		{% endfor %}
 
-	<div id=" pages" align="center">
-{% if articles.has_previous %}
-<a href="?page={{ articles.previous_page_number }}">Previous</a>
-{% endif %}
 
-{% if articles.has_previous or articles.has_next %}
-<span class="current">
-	Страница {{ articles.number }} из {{ articles.paginator.num_pages }}.
-</span>
-{% endif %}
 
-{% if articles.has_next %}
-<a href="?page={{ articles.next_page_number }}">Next</a>
-{% endif %}
+
+
+
+
+
+<div class="home">
+	<div class="home__title">Главная</div>
+	<div class="home__container _container">
+		<div class="home__content">
+			{% if articles %}
+			<div class="news">
+
+				{% for article in articles %}
+
+
+				<div class="news__item">
+					<div class="news__head">
+
+						<div class="news__image _ibg">
+
+							<picture>
+								<source srcset="{{ MEDIA_URL }}{{ article.images.first.image.url }}" type="image/webp"><img
+									src="{{ MEDIA_URL }}{{ article.images.first.image.url }}" alt="">
+							</picture>
+
+						</div>
+
+						<div class="news__pub-date pub-date">
+							{{article.article_date}}
+						</div>
+					</div>
+					<div class="news__body">
+						<a href="{% url 'blog:article-detail' article.id %}" class="news__title">{{article.article_title}}</a>
+						<div class="news__text">
+							{{article.article_text}}
+						</div>
+						<a class="news__btn" href="{% url 'blog:article-detail' article.id %}">Читать дальше</a>
+					</div>
+				</div>
+				{% endfor %}
+			</div>
+		</div>
+	</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id=" pages" align="center">
+	{% if articles.has_previous %}
+	<a href="?page={{ articles.previous_page_number }}">Previous</a>
+	{% endif %}
+	{% if articles.has_previous or articles.has_next %}
+	<span class="current">
+		Страница {{ articles.number }} из {{ articles.paginator.num_pages }}.
+	</span>
+	{% endif %}
+
+	{% if articles.has_next %}
+	<a href="?page={{ articles.next_page_number }}">Next</a>
+	{% endif %}
 </div>
 {% else %}
 Статьи не найдены
 
 
 {% endif %}
+
 
 
 

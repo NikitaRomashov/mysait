@@ -12,28 +12,6 @@
 <body>
 	<div class="wrapper">
 		<header class="header">
-
-			<div class="auth-header ">
-				<div class="auth-header__container _container">
-					<div class="auth-header__items">
-						{% if request.user.is_authenticated %}
-						{% if user.first_name %}
-
-						<a href="{% url 'accounts:logout' %}" class="auth-header__item"
-							title="Тыкни чтобы выйти">{{ user.first_name }} {{ user.last_name }}</a>
-						{% else %}
-						<a href="{% url 'accounts:logout' %}" class="auth-header__item"
-							title="Тыкни чтобы выйти">{{ user.name }}</a>
-						{% endif %}
-						{% else %}
-						<a href="{% url 'accounts:register' %}" class="auth-header__item">Регистрация</a>
-						<a href="{% url 'accounts:login' %}" class="auth-header__item">Логин</a>
-						<a href="/login/vk-oauth2" class="auth-header__item auth-header__item_vk"><img
-								src="{% static 'blog/img/icons/social/vk_icon.svg' %}" alt="Вход через ВК"></a>
-						{% endif %}
-					</div>
-				</div>
-			</div>
 			<div class="header__main">
 				<div class="header__content _container">
 					<div class="header__column ">

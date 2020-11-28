@@ -5,7 +5,7 @@
 {% block content %}
 <h1>{{ article.article_title }}</h1>
 {% if article.was_published_recently %}
- <h2>Новая статья!</h2> 
+<h2>Новая статья!</h2>
 {% endif%}
 <em>{{ article.article_date }}</em>
 <p>{{article.article_text}}</p>
@@ -35,16 +35,13 @@
 <hr>
 
 
-	{% if request.user.is_authenticated %}
-		<form action="{% url 'blog:leave_comment' article.id %}" method="POST">
-			{% csrf_token %}
+	
+		<form action=" {% url 'blog:leave_comment' article.id %}" method="POST">
+{% csrf_token %}
 
-			<textarea name="text" id="" cols="30" rows="10" required placeholder="Введите текст"></textarea> <br>
-			<button type="submit">Оставить комментарий</button> <br>
+<textarea name="text" id="" cols="30" rows="10" required placeholder="Введите текст"></textarea> <br>
+<button type="submit">Оставить комментарий</button> <br>
 
-		</form>
-	{% else %}
-		Только зарегистрированные пользователи могут оставлять комментарии <br>
-		<a href="{% url 'accounts:register' %}">Регистрация</a> | <a href="{% url 'accounts:login' %}">Логин</a> | <a href="/login/vk-oauth2">Вход через ВК</a>
-	{% endif %}
+</form>
+
 {% endblock %}

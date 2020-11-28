@@ -18,11 +18,10 @@ import datetime
 
 
 def index(request):
-	#получение всех объектов
+    # получение всех объектов
     lates_articles_list = Article.objects.order_by('-article_date')
-    
 
-    paginator = Paginator(lates_articles_list, 2)
+    paginator = Paginator(lates_articles_list, 3)
     page = request.GET.get('page')
     try:
         articles = paginator.page(page)
@@ -34,7 +33,7 @@ def index(request):
         articles=articles,
     )
     # Вызывает шаблон
-    return render(request, 'blog/index.html', vars )
+    return render(request, 'blog/index.html', vars)
 
 
 def ArticleDetailView(request, article_id):
@@ -44,7 +43,7 @@ def ArticleDetailView(request, article_id):
         raise Http404("Статья не найдена!")
     latest_comments_list = a.comment_set.order_by('-id')[:10]
     article_images = a.images.all()
-    return render(request, 'blog/detail_view.html', {'article': a, 'latest_comments_list': latest_comments_list, "article_images": article_images, })
+    return render(request, 'blog/detail_view.html', {'article': a, 'latest_comments_list': latest_comments_list, "article_images": article_images})
 
 
 def about(request):
@@ -60,21 +59,25 @@ def leave_comment(request, article_id):
         a = Article.objects.get(id=article_id)
     except:
         raise Http404("Статья не найдена")
-#получение имени и фамилии пользователя
+# получение имени и фамилии пользователя
     user_name = request.user.get_full_name()
     a.comment_set.create(
         comment_autor=user_name, comment_text=request.POST['text'], comment_date=datetime.datetime.now)
 
     return HttpResponseRedirect(reverse('blog:article-detail', args=(a.id,)))
 
-#Поиск
+# Поиск
+
+
 def searchInArticles(request):
     def get_queryset():  # новый
         query = request.GET.get('q')
         object_list = Article.objects.filter(
-            Q(article_title__icontains=query) | Q(article_text__icontains=query)
+            Q(article_title__icontains=query) | Q(
+                article_text__icontains=query)
         )
-        return object_list.order_by('-article_date')#На локальной машине поиск с учетом регистра, на хостинге без учета
+        # На локальной машине поиск с учетом регистра, на хостинге без учета
+        return object_list.order_by('-article_date')
 
     searchResult = get_queryset()
 
