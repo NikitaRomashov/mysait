@@ -42,20 +42,20 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'blog',
     'send_email',
-    'accounts',
-    'social_django'
+    # 'accounts',
+    # 'social_django'
 ]
 
 
-AUTHENTICATION_BACKENDS = (
+'''AUTHENTICATION_BACKENDS = (
     # бекенд авторизации через ВКонтакте
-    'django.contrib.auth.backends.ModelBackend',
-    'social_core.backends.vk.VKOAuth2',
+    # 'django.contrib.auth.backends.ModelBackend',
+    # 'social_core.backends.vk.VKOAuth2',
     # бекенд классической аутентификации, чтобы работала авторизация через обычный логин и пароль
-)
+)'''
 
-SOCIAL_AUTH_VK_OAUTH2_KEY = '7639343'
-SOCIAL_AUTH_VK_OAUTH2_SECRET = '1TsPm5huWtZBBPcKFivg'
+#SOCIAL_AUTH_VK_OAUTH2_KEY = '7639343'
+#SOCIAL_AUTH_VK_OAUTH2_SECRET = '1TsPm5huWtZBBPcKFivg'
 
 
 MIDDLEWARE = [
@@ -82,7 +82,7 @@ TEMPLATES = [
                 'django.template.context_processors.request',
                 'django.contrib.auth.context_processors.auth',
                 'django.contrib.messages.context_processors.messages',
-                'social_django.context_processors.backends',
+                # 'social_django.context_processors.backends',
             ],
         },
     },
@@ -146,7 +146,7 @@ EMAIL_HOST_PASSWORD = 'saitsaitsait'
 DEFAULT_FROM_EMAIL = 'Никита Ромашов'
 DEFAULT_TO_EMAIL = 'nikitos1654@gmail.com'
 
-LOGIN_REDIRECT_URL = 'blog:home'
+#LOGIN_REDIRECT_URL = 'blog:home'
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/3.1/howto/static-files/
