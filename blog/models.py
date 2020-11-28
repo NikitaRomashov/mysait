@@ -34,15 +34,13 @@ class ArticleImage(models.Model):
         verbose_name = 'Фотография статьи'
         verbose_name_plural = 'Фотографии статьи'
 
-
     def __str__(self):
-      return self.image.url
-
+        return self.image.url
 
 
 class Comment(models.Model):
     article = models.ForeignKey(Article, on_delete=models.CASCADE)
-    comment_autor = models.CharField('Имя автора', max_length=100)
+    #comment_autor = models.CharField('Имя автора', max_length=100)
     comment_text = models.CharField('Текст комментария', max_length=300)
     comment_date = models.DateTimeField('Дата комментария', auto_now_add=True)
 

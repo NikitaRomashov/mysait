@@ -60,9 +60,9 @@ def leave_comment(request, article_id):
     except:
         raise Http404("Статья не найдена")
 # получение имени и фамилии пользователя
-    user_name = request.user.get_full_name()
+    #user_name = request.user.get_full_name()
     a.comment_set.create(
-        comment_autor=user_name, comment_text=request.POST['text'], comment_date=datetime.datetime.now)
+       comment_text=request.POST['text'], comment_date=datetime.datetime.now)
 
     return HttpResponseRedirect(reverse('blog:article-detail', args=(a.id,)))
 
