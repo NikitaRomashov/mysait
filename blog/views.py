@@ -21,7 +21,7 @@ def index(request):
     # получение всех объектов
     lates_articles_list = Article.objects.order_by('-article_date')
 
-    paginator = Paginator(lates_articles_list, 3)
+    paginator = Paginator(lates_articles_list, 15)
     page = request.GET.get('page')
     try:
         articles = paginator.page(page)

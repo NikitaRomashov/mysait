@@ -11,23 +11,19 @@
 
 <body>
 	<div class="wrapper">
+
 		<header class="header">
 			<div class="header__main">
 				<div class="header__content _container">
 					<div class="header__column ">
-						<a href="" class="header__logo">
-							<img src="{% static 'blog/img/logo.png' %}" alt="">
+						<a href="{% url 'blog:home' %}" class="header__logo logo">
+							<div class="logo__image">
+								<picture>
+									<source srcset="{% static 'blog/img/logo.png' %}" type="image/webp"><img
+										src="{% static 'blog/img/logo.png' %}" alt=""></picture>
+							</div>
+							<div class="logo__title">Хабаровское краевое отделение Федерация КУДО России</div>
 						</a>
-					</div>
-					<div class="header__column">
-						<nav class="header__menu">
-							<ul class="header__list">
-								<li><a href="{% url 'blog:home' %}" class="header__link">Главная</a></li>
-								<li><a href="{% url 'blog:history' %}" class="header__link">История</a></li>
-								<li><a href="{% url 'blog:about' %}" class="header__link">О нас</a></li>
-								<!--<li><a href="" class="header__link">Контакты</a></li>-->
-							</ul>
-						</nav>
 					</div>
 					<div class="header__column">
 						<form class="header__search-form" action="{% url 'blog:search_in_articles' %}" method="get">
@@ -35,11 +31,17 @@
 							<input class="header__search-submit" type="image"
 								src="{% static 'blog/img/icons/searh_icon.png' %}" alt="">
 						</form>
+						<nav class="header__menu">
+							<ul class="header__list">
+								<li><a href="{% url 'blog:home' %}" class="header__link">Главная</a></li>
+								<li><a href="{% url 'blog:history' %}" class="header__link">История</a></li>
+								<li><a href="{% url 'blog:about' %}" class="header__link">О нас</a></li>
+							</ul>
+						</nav>
 					</div>
 				</div>
 			</div>
 		</header>
-
 		<main class="page">
 
 

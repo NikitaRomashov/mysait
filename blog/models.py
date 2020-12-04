@@ -1,4 +1,5 @@
 import datetime
+
 from django.db import models
 from django.utils import timezone
 
@@ -8,7 +9,7 @@ from django.utils import timezone
 class Article(models.Model):
     article_title = models.CharField('Заголовок статьи', max_length=200)
     article_text = models.TextField('Текст статьи')
-    article_date = models.DateTimeField('Дата публикации')
+    article_date = models.DateField('Дата публикации')
     #article_image = models.ImageField('Фотографии статьи')
 
     def __str__(self):
@@ -18,7 +19,7 @@ class Article(models.Model):
         return ''
 
     def was_published_recently(self):
-        return self.article_date >= (timezone.now() - datetime.timedelta(days=7))
+        return self.article_date >= (timezone.now().date() - datetime.timedelta(days=7))
 
     class Meta:
         verbose_name = 'Статью'
