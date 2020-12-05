@@ -10,7 +10,7 @@ urlpatterns = [
     path('post/<int:article_id>', views.ArticleDetailView, name='article-detail'),
     path('post/<int:article_id>/leave_comment', views.leave_comment, name='leave_comment'),
     #path('email', include('send_email.urls')),
-	 #для поиска уцаца
+	 #для поиска 
     
 
 ]
