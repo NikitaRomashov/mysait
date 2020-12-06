@@ -1,0 +1,39 @@
+{% extends 'blog/base.html' %}
+
+
+
+
+
+
+
+
+
+{% block title %} {{ sponsor.sponsor_title }} {% endblock %}
+{% block content %}
+
+
+
+
+<main class="page detail-page">
+	<div class="detail-page__container _container">
+		<div class="detail-page__title">
+			{{ sponsor.sponsor_title }}
+		</div>
+		<div class="detail-page__img _ibg">
+			<img src="{{ MEDIA_URL }}{{ sponsor.images.first.image.url }}" alt="">
+		</div>
+		<div class="detail-page__text">
+			<pre>{{ sponsor.sponsor_text }}</pre>
+		</div>
+	</div>
+
+</main>
+
+
+
+
+
+</div>
+</main>
+
+{% endblock %}

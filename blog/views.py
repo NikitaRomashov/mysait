@@ -1,5 +1,5 @@
 from django.shortcuts import render
-from .models import Article, ArticleImage
+from .models import Article, ArticleImage, Sponsor, SponsorImage
 from django.views.generic import DetailView
 from django.http import Http404, HttpResponseRedirect
 from django.urls import reverse
@@ -20,7 +20,6 @@ import datetime
 def index(request):
     # получение всех объектов
     lates_articles_list = Article.objects.order_by('-article_date')
-
     paginator = Paginator(lates_articles_list, 15)
     page = request.GET.get('page')
     try:
@@ -94,3 +93,12 @@ def searchInArticles(request):
     )
 
     return render(request, 'blog/search.html', vars)
+
+
+def SponsorDetailView(request, sponsor_id):
+    try:
+        a = Sponsor.objects.get(id=sponsor_id)
+    except:
+        raise Http404("Спонсор не найден!")
+    sponsor_images = a.images.all()
+    return render(request, 'blog/detail_sponsor.html', {'sponsor': a,  "sponsor_images": sponsor_images})

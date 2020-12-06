@@ -2,6 +2,7 @@ import datetime
 
 from django.db import models
 from django.utils import timezone
+from django.db.models import ImageField
 
 # Create your models here.
 
@@ -51,3 +52,30 @@ class Comment(models.Model):
 
     def __str__(self):
         return self.comment_text
+
+
+class Sponsor(models.Model):
+    sponsor_title = models.CharField('Название спонсора', max_length=200)
+    sponsor_text = models.TextField('Описание')
+
+    def __str__(self):
+        return self.sponsor_title
+
+    def get_absolute_url(self):
+        return ''
+    class Meta:
+        verbose_name = 'Спонсор'
+        verbose_name_plural = 'Спонсоры'
+
+
+class SponsorImage(models.Model):
+    image = models.ImageField('Логотип спонсора')
+    sponsor = models.ForeignKey(
+        Sponsor, related_name="images", on_delete=models.CASCADE)
+
+    class Meta:
+        verbose_name = 'Логотип спонсора'
+        verbose_name_plural = 'Логотипы спонсора'
+
+    def __str__(self):
+        return self.image.url

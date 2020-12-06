@@ -42,24 +42,39 @@
 				</div>
 			</div>
 		</header>
-		<main class="page">
 
 
-			{% if messages %}
+		{% if messages %}
 
-			{% for message in messages %}
-			<div class="messege- {{ message.tags }}">
-				{{ message }}
+		{% for message in messages %}
+		<div class="messege- {{ message.tags }}">
+			{{ message }}
+		</div>
+		{% endfor %}
+
+		{% endif %}
+
+		{% block content %}
+
+
+		{% endblock %}
+
+		{% if context_sponsors %}
+		<div class="sponsors">
+			<div class="sponsors_container _container">
+				<div class="sponsors__slider slider-sponsors _swiper">
+					{% for sponsor in context_sponsors %}
+					<a href="{% url 'blog:sponsor-detail' sponsor.id %}" class="slider-sponsors__slide">
+						<div class="slider-sponsors__img _ibg">
+							<img src="{{ MEDIA_URL }}{{ sponsor.images.first.image.url }}" alt="">
+						</div>
+					</a>
+					{% endfor %}
+				</div>
 			</div>
-			{% endfor %}
+		</div>
+		{% endif %}
 
-			{% endif %}
-
-			{% block content %}
-
-			{% endblock %}
-
-		</main>
 
 		<footer class="footer">
 
@@ -133,48 +148,34 @@
 				<div class="footer__column">
 					<div class="footer__item">
 						<div class="galery-footer">
-							<div class="galery-footer__title _title-footer">Our Gallery</div>
+							<div class="galery-footer__title _title-footer">Социальные сети</div>
 							<div class="galery-footer__items">
 								<div class="galery-footer__column">
 									<a href="" class="galery-footer__item">
-										<img src="{% static 'blog/img/footer/galety.jpg' %}" alt="">
+										<img src="{% static 'blog/img/icons/social/twitter.svg' %}" alt="">
 									</a>
 								</div>
 								<div class="galery-footer__column">
 									<a href="" class="galery-footer__item">
-										<img src="{% static 'blog/img/footer/galety.jpg' %}" alt="">
+										<img src="{% static 'blog/img/icons/social/facebook.svg' %}" alt="">
 									</a>
 								</div>
 								<div class="galery-footer__column">
 									<a href="" class="galery-footer__item">
-										<img src="{% static 'blog/img/footer/galety.jpg' %}" alt="">
+										<img src="{% static 'blog/img/icons/social/youtube.svg' %}" alt="">
 									</a>
 								</div>
-								<div class="galery-footer__column">
+								<div class="galery-footer__column galery-footer__column_big">
 									<a href="" class="galery-footer__item">
-										<img src="{% static 'blog/img/footer/galety.jpg' %}" alt="">
+										<img src="{% static 'blog/img/icons/social/vk_icon.svg' %}" alt="">
 									</a>
 								</div>
-								<div class="galery-footer__column">
+								<div class="galery-footer__column galery-footer__column_big">
 									<a href="" class="galery-footer__item">
-										<img src="{% static 'blog/img/footer/galety.jpg' %}" alt="">
+										<img src="{% static 'blog/img/icons/social/instagram.svg' %}" alt="">
 									</a>
 								</div>
-								<div class="galery-footer__column">
-									<a href="" class="galery-footer__item">
-										<img src="{% static 'blog/img/footer/galety.jpg' %}" alt="">
-									</a>
-								</div>
-								<div class="galery-footer__column">
-									<a href="" class="galery-footer__item">
-										<img src="{% static 'blog/img/footer/galety.jpg' %}" alt="">
-									</a>
-								</div>
-								<div class="galery-footer__column">
-									<a href="" class="galery-footer__item">
-										<img src="{% static 'blog/img/footer/galety.jpg' %}" alt="">
-									</a>
-								</div>
+
 							</div>
 						</div>
 					</div>
@@ -197,6 +198,9 @@
 
 
 	</div>
+	<script src="{% static 'blog/js/vendors.min.js' %}"></script>
+	<script src="{% static 'blog/js/app.min.js' %}"></script>
+
 </body>
 
 </html>
