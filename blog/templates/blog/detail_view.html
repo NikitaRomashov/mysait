@@ -19,31 +19,6 @@
 		<div class="detail-page__text">
 			<pre>{{article.article_text}}</pre>
 		</div>
-		<div class="detail-page__comments">
-
-
-			<hr>
-			{% if latest_comments_list %}
-			{% for comment in latest_comments_list %}
-
-
-			<div class="detail-page__comment comment-detail-page">
-				<div class="comment-detail-page__text">{{ comment.comment_text }}</div>
-				<div class="comment-detail-page__date">{{comment.comment_date}}</div>
-			</div>
-			{% endfor %}
-			{% else %}
-			Комментарий не найдены!
-			{% endif %}
-			<hr>
-			<form action="{% url 'blog:leave_comment' article.id %}" class="detail-page__form form-detail-page"
-				method="POST">
-				{% csrf_token %}
-				<textarea name="text" class="form-detail-page__text" name="email_massege" id="" required
-					placeholder="Введите текст"></textarea> <br>
-				<button class="form-detail-page__btn _btn" type="submit">Отправить</button>
-			</form>
-		</div>
 
 	</div>
 

@@ -1,5 +1,5 @@
 from django.shortcuts import render
-from .models import Article, ArticleImage, Sponsor, SponsorImage
+from .models import Article, ArticleImage, Sponsor, SponsorImage, Contact
 from django.views.generic import DetailView
 from django.http import Http404, HttpResponseRedirect
 from django.urls import reverse
@@ -20,7 +20,7 @@ import datetime
 def index(request):
     # получение всех объектов
     lates_articles_list = Article.objects.order_by('-article_date')
-    paginator = Paginator(lates_articles_list, 15)
+    paginator = Paginator(lates_articles_list, 4)
     page = request.GET.get('page')
     try:
         articles = paginator.page(page)
@@ -46,7 +46,8 @@ def ArticleDetailView(request, article_id):
 
 
 def about(request):
-    return render(request, 'blog/about.html')
+    contact = Contact.objects.first
+    return render(request, 'blog/about.html', {'contact': contact, })
 
 
 def history(request):
@@ -61,7 +62,7 @@ def leave_comment(request, article_id):
 # получение имени и фамилии пользователя
     #user_name = request.user.get_full_name()
     a.comment_set.create(
-       comment_text=request.POST['text'], comment_date=datetime.datetime.now)
+        comment_text=request.POST['text'], comment_date=datetime.datetime.now)
 
     return HttpResponseRedirect(reverse('blog:article-detail', args=(a.id,)))
 

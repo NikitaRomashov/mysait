@@ -57,6 +57,7 @@ class Comment(models.Model):
 class Sponsor(models.Model):
     sponsor_title = models.CharField('Название спонсора', max_length=200)
     sponsor_text = models.TextField('Описание')
+    sponsor_link = models.TextField('Ссылка на сайт')
 
     def __str__(self):
         return self.sponsor_title
@@ -79,3 +80,21 @@ class SponsorImage(models.Model):
 
     def __str__(self):
         return self.image.url
+
+
+class Contact(models.Model):
+    
+    contact_adress = models.TextField('Адреса')
+    contact_email = models.TextField('Email')
+    contact_phone = models.TextField('Телефон')
+
+    def __str__(self):
+        return self.contact_adress
+
+    def get_absolute_url(self):
+        return ''
+
+    
+    class Meta:
+        verbose_name = 'Контакты'
+        verbose_name_plural = 'Контакты'

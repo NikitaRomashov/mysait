@@ -20,7 +20,7 @@
 -->
 
 
-<div class="home">
+<div class="home page">
 
 	<div class="home__container _container">
 		<div class="home__content">
@@ -44,24 +44,25 @@
 						<div class="news__text">
 							{{article.article_text}}
 						</div>
-						<a class="news__btn" href="{% url 'blog:article-detail' article.id %}">Читать дальше</a>
+						<div class="news__btn">Читать дальше</div>
 					</div>
 				</div>
 				{% endfor %}
 			</div>
-			<div id=" pages" align="center">
+			<div id="pages" align="center" style="font-size: 25px; padding: 20px 0px;" class="pagination">
 				{% if articles.has_previous %}
-				<a href="?page={{ articles.previous_page_number }}">Previous</a>
+				<a href="?page={{ articles.previous_page_number }} ">Назад</a>
+				{% endif %}
+				{% if articles.has_previous or articles.has_next %}
+				<span class="current" style="margin: 0px 20px;">
+					Страница {{ articles.number }} из {{ articles.paginator.num_pages }}.
+				</span>
+				{% endif %}
+				{% if articles.has_next %}
+				<a href="?page={{ articles.next_page_number }}">Вперед</a>
 				{% endif %}
 			</div>
-			{% if articles.has_previous or articles.has_next %}
-			<span class="current">
-				Страница {{ articles.number }} из {{ articles.paginator.num_pages }}.
-			</span>
-			{% endif %}
-			{% if articles.has_next %}
-			<a href="?page={{ articles.next_page_number }}">Next</a>
-			{% endif %}
+
 
 			{% else %}
 			Статьи не найдены

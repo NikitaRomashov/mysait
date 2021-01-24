@@ -1,5 +1,5 @@
 from django.contrib import admin
-from .models import Article, Comment, ArticleImage, Sponsor, SponsorImage
+from .models import Article, Comment, ArticleImage, Sponsor, SponsorImage, Contact
 from django.utils.safestring import mark_safe
 
 
@@ -54,3 +54,6 @@ admin.site.register(Article, ArticleAdmin)
 
 admin.site.register(SponsorImage, SponsorImageAdmin)
 admin.site.register(Sponsor, SponsorAdmin)
+
+
+admin.site.register(Contact)

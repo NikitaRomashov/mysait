@@ -1537,3 +1537,25 @@ function scroll_animate(event) {
 	//If native scroll
 	//disableScroll();
 }
+
+//Открытие статьи 
+let buttons = document.querySelectorAll('.news__btn');
+let texts = document.querySelectorAll('.news__text');
+
+if (buttons) {
+	for (let index = 0; index < buttons.length; index++) {
+		const element = buttons[index];
+
+
+		element.addEventListener("click", function (e) {
+			console.log(index);
+			texts[index].classList.toggle('_show');
+			if (texts[index].classList.contains('_show')) {
+				buttons[index].textContent = 'Скрыть';
+			} else {
+				buttons[index].textContent = 'Читать дальше';
+			}
+
+		});
+	}
+}
