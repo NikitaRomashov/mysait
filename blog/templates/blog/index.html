@@ -27,46 +27,47 @@
 			{% if articles %}
 			<div class="news">
 				{% for article in articles %}
+				<a href="" class="news__title">{{article.article_title}}</a>
 				<div class="news__item">
 					<div class="news__head">
-						<div class="news__image _ibg">
-							<picture>
-								<source srcset="{{ MEDIA_URL }}{{ article.images.first.image.url }}" type="image/webp"><img
-									src="{{ MEDIA_URL }}{{ article.images.first.image.url }}" alt="">
-							</picture>
-						</div>
+						<a href="{{ MEDIA_URL }}{{ article.images.first.image.url }}" target="_blank"
+							class="news__image _ibg">
+							<img src="{{ MEDIA_URL }}{{ article.images.first.image.url }}" alt="">
+						</a>
 						<div class="news__pub-date pub-date">
 							{{article.article_date}}
 						</div>
 					</div>
 					<div class="news__body">
-						<a href="{% url 'blog:article-detail' article.id %}" class="news__title">{{article.article_title}}</a>
+
 						<div class="news__text">
+
 							{{article.article_text}}
 						</div>
-						<div class="news__btn">Читать дальше</div>
+						<a class="news__btn"></a>
 					</div>
+
 				</div>
 				{% endfor %}
-			</div>
-			<div id="pages" align="center" style="font-size: 25px; padding: 20px 0px;" class="pagination">
-				{% if articles.has_previous %}
-				<a href="?page={{ articles.previous_page_number }} ">Назад</a>
-				{% endif %}
-				{% if articles.has_previous or articles.has_next %}
-				<span class="current" style="margin: 0px 20px;">
-					Страница {{ articles.number }} из {{ articles.paginator.num_pages }}.
-				</span>
-				{% endif %}
-				{% if articles.has_next %}
-				<a href="?page={{ articles.next_page_number }}">Вперед</a>
-				{% endif %}
-			</div>
+				<div id="pages" align="center" style="font-size: 25px; padding: 20px 0px;" class="pagination">
+					{% if articles.has_previous %}
+					<a href="?page={{ articles.previous_page_number }} ">Назад</a>
+					{% endif %}
+					{% if articles.has_previous or articles.has_next %}
+					<span class="current" style="margin: 0px 20px;">
+						Страница {{ articles.number }} из {{ articles.paginator.num_pages }}.
+					</span>
+					{% endif %}
+					{% if articles.has_next %}
+					<a href="?page={{ articles.next_page_number }}">Вперед</a>
+					{% endif %}
+				</div>
 
 
-			{% else %}
-			Статьи не найдены
-			{% endif %}
+				{% else %}
+				Статьи не найдены
+				{% endif %}
+			</div>
 		</div>
 	</div>
 </div>
