@@ -51,7 +51,7 @@
 				{% endfor %}
 				<div id="pages" align="center" style="font-size: 25px; padding: 20px 0px;" class="pagination">
 					{% if articles.has_previous %}
-					<a href="?page={{ articles.previous_page_number }} ">Назад</a>
+					<a href="?page={{ articles.previous_page_number }} ">«</a>
 					{% endif %}
 					{% if articles.has_previous or articles.has_next %}
 					<span class="current" style="margin: 0px 20px;">
@@ -59,7 +59,7 @@
 					</span>
 					{% endif %}
 					{% if articles.has_next %}
-					<a href="?page={{ articles.next_page_number }}">Вперед</a>
+					<a href="?page={{ articles.next_page_number }}">»</a>
 					{% endif %}
 				</div>
 

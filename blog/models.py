@@ -3,6 +3,7 @@ import datetime
 from django.db import models
 from django.utils import timezone
 from django.db.models import ImageField
+from django.core.exceptions import ValidationError
 
 # Create your models here.
 
@@ -28,7 +29,7 @@ class Article(models.Model):
 
 
 class ArticleImage(models.Model):
-    image = models.ImageField('Фотографии статьи')
+    #image = models.ImageField('Фотографии статьи')
     article = models.ForeignKey(
         Article, related_name="images", on_delete=models.CASCADE)
 
@@ -38,6 +39,15 @@ class ArticleImage(models.Model):
 
     def __str__(self):
         return self.image.url
+
+    def validate_image(fieldfile_obj):
+        filesize = fieldfile_obj.file.size
+        megabyte_limit = 5.0
+        if filesize > megabyte_limit*1024*1024:
+            raise ValidationError("Максимальный размер файла %sMB" %
+                                  str(megabyte_limit))
+
+    image = models.ImageField('Фотографии статьи', validators=[validate_image])
 
 
 class Comment(models.Model):
@@ -64,13 +74,14 @@ class Sponsor(models.Model):
 
     def get_absolute_url(self):
         return ''
+
     class Meta:
         verbose_name = 'Спонсор'
         verbose_name_plural = 'Спонсоры'
 
 
 class SponsorImage(models.Model):
-    image = models.ImageField('Логотип спонсора')
+    #image = models.ImageField('Логотип спонсора')
     sponsor = models.ForeignKey(
         Sponsor, related_name="images", on_delete=models.CASCADE)
 
@@ -81,9 +92,18 @@ class SponsorImage(models.Model):
     def __str__(self):
         return self.image.url
 
+    def validate_image(fieldfile_obj):
+        filesize = fieldfile_obj.file.size
+        megabyte_limit = 0.5
+        if filesize > megabyte_limit*1024*1024:
+            raise ValidationError("Максимальный размер файла %sMB" %
+                                  str(megabyte_limit))
+
+    image = models.ImageField('Логотип спонсора', validators=[validate_image])
+
 
 class Contact(models.Model):
-    
+
     contact_adress = models.TextField('Адреса')
     contact_email = models.TextField('Email')
     contact_phone = models.TextField('Телефон')
@@ -94,7 +114,6 @@ class Contact(models.Model):
     def get_absolute_url(self):
         return ''
 
-    
     class Meta:
         verbose_name = 'Контакты'
         verbose_name_plural = 'Контакты'

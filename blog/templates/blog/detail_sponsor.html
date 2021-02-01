@@ -16,12 +16,13 @@
 
 <main class="page detail-page">
 	<div class="detail-page__container _container">
-		<div class="detail-page__title">
-			{{ sponsor.sponsor_title }}
-		</div>
+
 		<a href="{{ MEDIA_URL }}{{ sponsor.images.first.image.url }}" target="_blank" class="detail-page__img _ibg2">
 			<img src="{{ MEDIA_URL }}{{ sponsor.images.first.image.url }}" alt="">
 		</a>
+		<div class="detail-page__title">
+			{{ sponsor.sponsor_title }}
+		</div>
 		<a target="_blank" href="{{ sponsor.sponsor_link }}">
 			Сайт спонсора
 		</a>

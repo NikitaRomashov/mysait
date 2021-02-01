@@ -657,6 +657,29 @@ animate({
 	}
 })();
 
+
+
+
+function getRow(index) {
+	let div = document.querySelectorAll('.news__text'),
+		text = div[index].textContent,
+		span = document.createElement('span');
+	//result = document.querySelectorAll('.news__title');
+
+	span.textContent = text;
+	div[index].innerHTML = '';
+	div[index].appendChild(span);
+	//result.textContent = 'Количество строк: ' + span.getClientRects().length;
+	return span.getClientRects().length;
+};
+
+/*getRow(0);
+window.onresize = getRow;
+*/
+
+
+
+
 //Открытие статьи 
 let buttons = document.querySelectorAll('.news__btn');
 let texts = document.querySelectorAll('.news__text');
@@ -665,9 +688,12 @@ if (buttons) {
 	for (let index = 0; index < buttons.length; index++) {
 		const element = buttons[index];
 
+		if (getRow(index) <= 6) {
+			buttons[index].style.cssText = "display:none";
+		};
 
 		element.addEventListener("click", function (e) {
-			console.log(index);
+			//console.log(index);
 			texts[index].classList.toggle('news__text_show');
 			if (texts[index].classList.contains('news__text_show')) {
 				buttons[index].classList.add('news__btn__show')
@@ -678,6 +704,10 @@ if (buttons) {
 		});
 	}
 }
+
+
+
+
 //let btn = document.querySelectorAll('button[type="submit"],input[type="submit"]');
 let forms = document.querySelectorAll('form');
 if (forms.length > 0) {

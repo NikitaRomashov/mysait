@@ -20,7 +20,7 @@
 							<div class="logo__image">
 								<img src="{% static 'blog/img/logo.png' %}" alt="">
 							</div>
-							<div class="logo__title">Федерация КУДО Хабаровского Края</div>
+							<div class="logo__title">Федерация КУДО Хабаровского края</div>
 						</a>
 					</div>
 					<div class="header__column">
@@ -58,6 +58,7 @@
 
 		{% if context_sponsors %}
 		<div class="sponsors">
+			<div class="sponsors__text">Партнеры</div>
 			<div class="sponsors_container _container">
 				<div class="sponsors__slider slider-sponsors _swiper">
 					{% for sponsor in context_sponsors %}
