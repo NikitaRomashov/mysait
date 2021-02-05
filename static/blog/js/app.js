@@ -76,7 +76,7 @@ let slider_sponsors = new Swiper('.sponsors__slider', {
 	},
 	observer: true,
 	observeParents: true,
-	slidesPerView: 5,
+	slidesPerView: 10,
 	spaceBetween: 30,
 	autoHeight: true,
 	speed: 800,
@@ -677,7 +677,15 @@ function getRow(index) {
 window.onresize = getRow;
 */
 
+function getRow2(index) {
+	let div = document.querySelectorAll('.news__text');
+	let height = div[index].offsetHeight;
+	//let myFontsize = window.getComputedStyle(div[index] ,null).fontSize;
+	let myLineHeight = parseInt(window.getComputedStyle(div[index], null).lineHeight);
+	let countRow = height / myLineHeight
 
+	return countRow;
+};
 
 
 //Открытие статьи 
@@ -688,7 +696,11 @@ if (buttons) {
 	for (let index = 0; index < buttons.length; index++) {
 		const element = buttons[index];
 
-		if (getRow(index) <= 6) {
+		/*if (getRow(index) <= 6) {
+			buttons[index].style.cssText = "display:none";
+		};*/
+
+		if (getRow2(index) <= 6) {
 			buttons[index].style.cssText = "display:none";
 		};
 

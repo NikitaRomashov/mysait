@@ -42,16 +42,22 @@
 
 						<div class="news__text">
 
+
+							{% autoescape off %}
 							{{article.article_text}}
+							{% endautoescape %}
+
+
+
 						</div>
 						<a class="news__btn"></a>
 					</div>
 
 				</div>
 				{% endfor %}
-				<div id="pages" align="center" style="font-size: 25px; padding: 20px 0px;" class="pagination">
+				<div id="pages" align="center" style="font-size: 17px; padding: 20px 0px;" class="pagination">
 					{% if articles.has_previous %}
-					<a href="?page={{ articles.previous_page_number }} ">«</a>
+					<a href="?page={{ articles.previous_page_number }}" style="font-size: 25px;">«</a>
 					{% endif %}
 					{% if articles.has_previous or articles.has_next %}
 					<span class="current" style="margin: 0px 20px;">
@@ -59,7 +65,7 @@
 					</span>
 					{% endif %}
 					{% if articles.has_next %}
-					<a href="?page={{ articles.next_page_number }}">»</a>
+					<a href="?page={{ articles.next_page_number }}" style="font-size: 25px;">»</a>
 					{% endif %}
 				</div>
 

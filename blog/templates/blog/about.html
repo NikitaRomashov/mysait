@@ -426,7 +426,7 @@
 		</div>
 	</div>
 </div>
--->
+
 
 
 <div class="page-about">
@@ -514,7 +514,7 @@
 					src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2535.1649006831735!2d137.00757842467655!3d50.54970333194939!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNTDCsDMyJzU4LjkiTiAxMzfCsDAwJzMyLjciRQ!5e0!3m2!1sru!2sru!4v1604058022686!5m2!1sru!2sru"
 					frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
 			</div>
--->
+
 			<div class="page-contact__send-message send-message-form">
 				<div class="send-message-form__container">
 					<div class="send-message-form__content">
@@ -534,7 +534,58 @@
 		</div>
 	</div>
 </div>
+-->
 
+
+<div class="page-about">
+	<div class="page-about__container _container">
+
+
+	</div>
+
+	<div class="page-contact">
+		<div class="page-contact__contact-info info-contact">
+			<div class="info-contact__container _container">
+				<div class="info-contact__title">Хабаровское краевое региональное отделение <br>Общероссийской
+					фузкультурно-спортиной <br>общественной организации "Федерация КУДО России"</div>
+				<div class="info-contact__contact">
+					<p>{{ contact.contact_phone }}</p>
+					<p>{{ contact.contact_email }}</p>
+					<p>
+						<a href="https://www.instagram.com/kudo_khv_azuma_school">Instagramm: kudo_khv_azuma_school</a>
+					</p>
+					<p>
+					<pre>{{ contact.contact_adress }}</pre>
+					</p>
+				</div>
+			</div>
+			<div class="page-contact__body">
+				<!--
+			<div class="page-contact__map">
+				<iframe
+					src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2535.1649006831735!2d137.00757842467655!3d50.54970333194939!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNTDCsDMyJzU4LjkiTiAxMzfCsDAwJzMyLjciRQ!5e0!3m2!1sru!2sru!4v1604058022686!5m2!1sru!2sru"
+					frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+			</div>
+-->
+				<div class="page-contact__send-message send-message-form">
+					<div class="send-message-form__container">
+						<div class="send-message-form__content">
+							<div class="send-message-form__title">
+								Send us a message
+							</div>
+							<form action="{% url 'send_email:success' %}" id="form" method="POST">
+								<input class="send-message-form__input" type="email" name="email_adress" id="email_adress"
+									required placeholder="Введите email"><br>
+								<textarea class="send-message-form__text" name="email_massege" id="" cols="30" rows="10"
+									required placeholder="Введите текст"></textarea> <br>
+								<button class="send-message-form__btn _btn" type="submit">Отправить</button>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
 
 
 

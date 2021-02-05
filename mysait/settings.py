@@ -42,6 +42,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'blog',
     'send_email',
+
     # 'accounts',
     # 'social_django'
 ]
