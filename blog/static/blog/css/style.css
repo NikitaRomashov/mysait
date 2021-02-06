@@ -1218,7 +1218,7 @@ body.ie ._ibg img {
 }
 
 .logo__title {
-  font-size: 26px;
+  font-size: 42px;
   color: #333;
   font-weight: 700;
   line-height: 40px;
@@ -1439,6 +1439,10 @@ body.ie ._ibg img {
 
 .info-contact__contact p {
   margin: 0px 0px 5px 0px;
+}
+
+.info-contact__contact p a {
+  color: #000;
 }
 
 .info-contact__contact pre {
@@ -1709,7 +1713,7 @@ body.ie ._ibg img {
 }
 
 .news__title {
-  font-size: 22px;
+  font-size: 33px;
   font-weight: 700;
   line-height: 35px;
   color: #333;
@@ -1718,7 +1722,7 @@ body.ie ._ibg img {
 }
 
 .news__text {
-  color: #666;
+  color: #000;
   font-size: 17px;
   line-height: 24px;
   max-height: 145px;
@@ -1962,6 +1966,10 @@ body.ie ._ibg img {
   .quantity__button:hover::before,
   .quantity__button:hover::after {
     background-color: rgba(0, 0, 0, 0.5);
+  }
+
+  .info-contact__contact p a:hover {
+    color: #c91212;
   }
 }
 

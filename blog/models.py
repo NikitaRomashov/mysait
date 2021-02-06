@@ -134,6 +134,7 @@ class Contact(models.Model):
     contact_adress = models.TextField('Адреса')
     contact_email = models.TextField('Email')
     contact_phone = models.TextField('Телефон')
+    contact_instagram = models.TextField('Полная ссылка на инстаграм')
 
     def __str__(self):
         return self.contact_adress
