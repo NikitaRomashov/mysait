@@ -95,27 +95,36 @@ let slider_sponsors = new Swiper('.sponsors__slider', {
 		nextEl: '.about__more .more__item_next',
 		prevEl: '.about__more .more__item_prev',
 	},
-	/*
+
 	breakpoints: {
 		320: {
-			slidesPerView: 1,
-			spaceBetween: 0,
-			autoHeight: true,
+			slidesPerView: 5,
+			spaceBetween: 15,
+			//autoHeight: true,
+		},
+		450: {
+			slidesPerView: 6,
+			spaceBetween: 15,
+			//autoHeight: true,
+		},
+		650:{
+			slidesPerView: 7,
+			spaceBetween: 20,
 		},
 		768: {
-			slidesPerView: 2,
+			slidesPerView: 8,
 			spaceBetween: 20,
 		},
 		992: {
-			slidesPerView: 3,
-			spaceBetween: 20,
+			slidesPerView: 8,
+			spaceBetween: 25,
 		},
-		1268: {
-			slidesPerView: 4,
+		1024: {
+			slidesPerView: 10,
 			spaceBetween: 30,
 		},
 	},
-	*/
+
 	on: {
 		lazyImageReady: function () {
 			ibg();
