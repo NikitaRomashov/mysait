@@ -2018,6 +2018,7 @@ body.ie ._ibg img {
   .logo__title {
     font-size: 36px;
     line-height: 36px;
+    font-weight: 700;
   }
 
   .news__image {
@@ -2026,6 +2027,8 @@ body.ie ._ibg img {
 
   .news__title {
     font-size: 28px;
+    line-height: 25px;
+    font-weight: 700;
   }
 
   .news__head {
@@ -2107,6 +2110,7 @@ body.ie ._ibg img {
 
   .news__title {
     font-size: 20px;
+    line-height: 19px;
   }
 
   .news__text {
