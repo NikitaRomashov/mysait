@@ -107,7 +107,7 @@ let slider_sponsors = new Swiper('.sponsors__slider', {
 			spaceBetween: 15,
 			//autoHeight: true,
 		},
-		650:{
+		650: {
 			slidesPerView: 7,
 			spaceBetween: 20,
 		},
@@ -719,7 +719,8 @@ if (buttons) {
 			if (texts[index].classList.contains('news__text_show')) {
 				buttons[index].classList.add('news__btn__show')
 			} else {
-				buttons[index].classList.remove('news__btn__show')
+				texts[index].scrollIntoView({ behavior: "smooth" });
+				buttons[index].classList.remove('news__btn__show');
 			}
 
 		});

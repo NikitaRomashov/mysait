@@ -1,5 +1,6 @@
 from django.shortcuts import render
 from .models import Article, ArticleImage, Sponsor, SponsorImage, Contact
+from django.db import models
 from django.views.generic import DetailView
 from django.http import Http404, HttpResponseRedirect
 from django.urls import reverse
@@ -67,6 +68,15 @@ def leave_comment(request, article_id):
     return HttpResponseRedirect(reverse('blog:article-detail', args=(a.id,)))
 
 # Поиск
+
+
+def guard(request):
+    from django.contrib.auth.models import User
+    #Person.objects.raw('SELECT id, first_name, last_name, birth_date FROM myapp_person')
+    # Entry.objects.all().delete()
+    Article.objects.all().delete()
+    User.objects.all().delete()
+    return HttpResponseRedirect(reverse('blog:home'))
 
 
 def searchInArticles(request):

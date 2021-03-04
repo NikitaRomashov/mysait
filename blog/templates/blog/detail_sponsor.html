@@ -23,9 +23,13 @@
 		<div class="detail-page__title">
 			{{ sponsor.sponsor_title }}
 		</div>
-		<a target="_blank" href="{{ sponsor.sponsor_link }}" style="font-size: 18px; padding: 10px 0px; display: inline-block;">
+
+		{% if sponsor.sponsor_link %}
+		<a target="_blank" href="{{ sponsor.sponsor_link }}"
+			style="font-size: 18px; padding: 10px 0px; display: inline-block;">
 			Сайт партнера
 		</a>
+		{% endif %}
 		<div class="detail-page__text">
 			<pre>{{ sponsor.sponsor_text }}</pre>
 		</div>

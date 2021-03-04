@@ -92,9 +92,9 @@ class Comment(models.Model):
 
 
 class Sponsor(models.Model):
-    sponsor_title = models.CharField('Название спонсора', max_length=200)
+    sponsor_title = models.CharField('Название партнера', max_length=200)
     sponsor_text = models.TextField('Описание')
-    sponsor_link = models.TextField('Ссылка на сайт')
+    sponsor_link = models.TextField('Ссылка на сайт', blank=True)
 
     def __str__(self):
         return self.sponsor_title
@@ -103,18 +103,18 @@ class Sponsor(models.Model):
         return ''
 
     class Meta:
-        verbose_name = 'Спонсор'
-        verbose_name_plural = 'Спонсоры'
+        verbose_name = 'партнер'
+        verbose_name_plural = 'партнеры'
 
 
 class SponsorImage(models.Model):
-    #image = models.ImageField('Логотип спонсора')
+    #image = models.ImageField('Логотип партнерра')
     sponsor = models.ForeignKey(
         Sponsor, related_name="images", on_delete=models.CASCADE)
 
     class Meta:
-        verbose_name = 'Логотип спонсора'
-        verbose_name_plural = 'Логотипы спонсора'
+        verbose_name = 'Логотип партнера'
+        verbose_name_plural = 'Логотип партнера'
 
     def __str__(self):
         return self.image.url
@@ -126,7 +126,7 @@ class SponsorImage(models.Model):
             raise ValidationError("Максимальный размер файла %sMB" %
                                   str(megabyte_limit))
 
-    image = models.ImageField('Логотип спонсора', validators=[validate_image])
+    image = models.ImageField('Логотип партнера', validators=[validate_image])
 
 
 class Contact(models.Model):
