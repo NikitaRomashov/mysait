@@ -1,0 +1,2155 @@
+[
+	{
+		"model": "admin.logentry",
+		"pk": 1,
+		"fields": {
+			"action_time": "2020-12-06T22:34:52.011Z",
+			"user": 1,
+			"content_type": 7,
+			"object_id": "1",
+			"object_repr": "Статья",
+			"action_flag": 1,
+			"change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"\\u0424\\u043e\\u0442\\u043e\\u0433\\u0440\\u0430\\u0444\\u0438\\u044f \\u0441\\u0442\\u0430\\u0442\\u044c\\u0438\", \"object\": \"/media/apartment2.jpeg\"}}]"
+		}
+	},
+	{
+		"model": "admin.logentry",
+		"pk": 2,
+		"fields": {
+			"action_time": "2020-12-06T22:35:17.701Z",
+			"user": 1,
+			"content_type": 7,
+			"object_id": "2",
+			"object_repr": "Обычная статья",
+			"action_flag": 1,
+			"change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"\\u0424\\u043e\\u0442\\u043e\\u0433\\u0440\\u0430\\u0444\\u0438\\u044f \\u0441\\u0442\\u0430\\u0442\\u044c\\u0438\", \"object\": \"/media/sell-home.png\"}}]"
+		}
+	},
+	{
+		"model": "admin.logentry",
+		"pk": 3,
+		"fields": {
+			"action_time": "2020-12-06T22:36:13.327Z",
+			"user": 1,
+			"content_type": 10,
+			"object_id": "1",
+			"object_repr": "Спонсор1",
+			"action_flag": 1,
+			"change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"\\u041b\\u043e\\u0433\\u043e\\u0442\\u0438\\u043f \\u0441\\u043f\\u043e\\u043d\\u0441\\u043e\\u0440\\u0430\", \"object\": \"/media/logo.png\"}}]"
+		}
+	},
+	{
+		"model": "admin.logentry",
+		"pk": 4,
+		"fields": {
+			"action_time": "2020-12-06T22:37:08.135Z",
+			"user": 1,
+			"content_type": 10,
+			"object_id": "1",
+			"object_repr": "Спонсор1",
+			"action_flag": 2,
+			"change_message": "[{\"changed\": {\"name\": \"\\u041b\\u043e\\u0433\\u043e\\u0442\\u0438\\u043f \\u0441\\u043f\\u043e\\u043d\\u0441\\u043e\\u0440\\u0430\", \"object\": \"/media/arrow.png\", \"fields\": [\"\\u041b\\u043e\\u0433\\u043e\\u0442\\u0438\\u043f \\u0441\\u043f\\u043e\\u043d\\u0441\\u043e\\u0440\\u0430\"]}}]"
+		}
+	},
+	{
+		"model": "admin.logentry",
+		"pk": 5,
+		"fields": {
+			"action_time": "2020-12-06T22:37:25.246Z",
+			"user": 1,
+			"content_type": 10,
+			"object_id": "2",
+			"object_repr": "вцувкцуыфв",
+			"action_flag": 1,
+			"change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"\\u041b\\u043e\\u0433\\u043e\\u0442\\u0438\\u043f \\u0441\\u043f\\u043e\\u043d\\u0441\\u043e\\u0440\\u0430\", \"object\": \"/media/photo-one.jpg\"}}]"
+		}
+	},
+	{
+		"model": "admin.logentry",
+		"pk": 6,
+		"fields": {
+			"action_time": "2020-12-06T22:37:41.588Z",
+			"user": 1,
+			"content_type": 10,
+			"object_id": "3",
+			"object_repr": "ё1322",
+			"action_flag": 1,
+			"change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"\\u041b\\u043e\\u0433\\u043e\\u0442\\u0438\\u043f \\u0441\\u043f\\u043e\\u043d\\u0441\\u043e\\u0440\\u0430\", \"object\": \"/media/04-Home-03.psd.png\"}}]"
+		}
+	},
+	{
+		"model": "admin.logentry",
+		"pk": 7,
+		"fields": {
+			"action_time": "2020-12-06T23:57:32.579Z",
+			"user": 1,
+			"content_type": 7,
+			"object_id": "3",
+			"object_repr": "соревнования1",
+			"action_flag": 1,
+			"change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"\\u0424\\u043e\\u0442\\u043e\\u0433\\u0440\\u0430\\u0444\\u0438\\u044f \\u0441\\u0442\\u0430\\u0442\\u044c\\u0438\", \"object\": \"/media/52b1b91d-9b74-40d7-83ac-c9ba28c6fa46.jpg\"}}]"
+		}
+	},
+	{
+		"model": "admin.logentry",
+		"pk": 8,
+		"fields": {
+			"action_time": "2020-12-07T00:00:19.865Z",
+			"user": 1,
+			"content_type": 7,
+			"object_id": "4",
+			"object_repr": "соревнования 2",
+			"action_flag": 1,
+			"change_message": "[{\"added\": {}}]"
+		}
+	},
+	{
+		"model": "admin.logentry",
+		"pk": 9,
+		"fields": {
+			"action_time": "2021-01-13T00:49:16.373Z",
+			"user": 1,
+			"content_type": 10,
+			"object_id": "2",
+			"object_repr": "Спонсор2",
+			"action_flag": 2,
+			"change_message": "[{\"changed\": {\"fields\": [\"\\u041d\\u0430\\u0437\\u0432\\u0430\\u043d\\u0438\\u0435 \\u0441\\u043f\\u043e\\u043d\\u0441\\u043e\\u0440\\u0430\", \"\\u041e\\u043f\\u0438\\u0441\\u0430\\u043d\\u0438\\u0435\"]}}, {\"changed\": {\"name\": \"\\u041b\\u043e\\u0433\\u043e\\u0442\\u0438\\u043f \\u0441\\u043f\\u043e\\u043d\\u0441\\u043e\\u0440\\u0430\", \"object\": \"/media/DVHAB.png\", \"fields\": [\"\\u041b\\u043e\\u0433\\u043e\\u0442\\u0438\\u043f \\u0441\\u043f\\u043e\\u043d\\u0441\\u043e\\u0440\\u0430\"]}}]"
+		}
+	},
+	{
+		"model": "admin.logentry",
+		"pk": 10,
+		"fields": {
+			"action_time": "2021-01-13T00:49:29.703Z",
+			"user": 1,
+			"content_type": 10,
+			"object_id": "2",
+			"object_repr": "Спонсор2",
+			"action_flag": 2,
+			"change_message": "[]"
+		}
+	},
+	{
+		"model": "admin.logentry",
+		"pk": 11,
+		"fields": {
+			"action_time": "2021-01-13T00:49:41.685Z",
+			"user": 1,
+			"content_type": 10,
+			"object_id": "1",
+			"object_repr": "Спонсор1",
+			"action_flag": 2,
+			"change_message": "[{\"changed\": {\"name\": \"\\u041b\\u043e\\u0433\\u043e\\u0442\\u0438\\u043f \\u0441\\u043f\\u043e\\u043d\\u0441\\u043e\\u0440\\u0430\", \"object\": \"/media/whatzap_%D0%BB%D0%BE%D0%B3%D0%BE.png\", \"fields\": [\"\\u041b\\u043e\\u0433\\u043e\\u0442\\u0438\\u043f \\u0441\\u043f\\u043e\\u043d\\u0441\\u043e\\u0440\\u0430\"]}}]"
+		}
+	},
+	{
+		"model": "admin.logentry",
+		"pk": 12,
+		"fields": {
+			"action_time": "2021-01-13T00:50:35.437Z",
+			"user": 1,
+			"content_type": 10,
+			"object_id": "3",
+			"object_repr": "Спонсор3",
+			"action_flag": 2,
+			"change_message": "[{\"changed\": {\"fields\": [\"\\u041d\\u0430\\u0437\\u0432\\u0430\\u043d\\u0438\\u0435 \\u0441\\u043f\\u043e\\u043d\\u0441\\u043e\\u0440\\u0430\", \"\\u041e\\u043f\\u0438\\u0441\\u0430\\u043d\\u0438\\u0435\"]}}, {\"changed\": {\"name\": \"\\u041b\\u043e\\u0433\\u043e\\u0442\\u0438\\u043f \\u0441\\u043f\\u043e\\u043d\\u0441\\u043e\\u0440\\u0430\", \"object\": \"/media/YOUR_MOVE.jpg\", \"fields\": [\"\\u041b\\u043e\\u0433\\u043e\\u0442\\u0438\\u043f \\u0441\\u043f\\u043e\\u043d\\u0441\\u043e\\u0440\\u0430\"]}}]"
+		}
+	},
+	{
+		"model": "admin.logentry",
+		"pk": 13,
+		"fields": {
+			"action_time": "2021-01-13T00:51:36.927Z",
+			"user": 1,
+			"content_type": 10,
+			"object_id": "4",
+			"object_repr": "АО Стройсервис",
+			"action_flag": 1,
+			"change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"\\u041b\\u043e\\u0433\\u043e\\u0442\\u0438\\u043f \\u0441\\u043f\\u043e\\u043d\\u0441\\u043e\\u0440\\u0430\", \"object\": \"/media/%D0%90%D0%9E_%D0%A1%D1%82%D1%80%D0%BE%D0%B9%D1%81%D0%B5%D1%80%D0%B2%D0%B8%D1%81.png\"}}]"
+		}
+	},
+	{
+		"model": "admin.logentry",
+		"pk": 14,
+		"fields": {
+			"action_time": "2021-01-13T00:52:11.333Z",
+			"user": 1,
+			"content_type": 10,
+			"object_id": "3",
+			"object_repr": "YourMOVE",
+			"action_flag": 2,
+			"change_message": "[{\"changed\": {\"fields\": [\"\\u041d\\u0430\\u0437\\u0432\\u0430\\u043d\\u0438\\u0435 \\u0441\\u043f\\u043e\\u043d\\u0441\\u043e\\u0440\\u0430\"]}}]"
+		}
+	},
+	{
+		"model": "admin.logentry",
+		"pk": 15,
+		"fields": {
+			"action_time": "2021-01-13T00:54:20.523Z",
+			"user": 1,
+			"content_type": 10,
+			"object_id": "2",
+			"object_repr": "DVHAB.RU",
+			"action_flag": 2,
+			"change_message": "[{\"changed\": {\"fields\": [\"\\u041d\\u0430\\u0437\\u0432\\u0430\\u043d\\u0438\\u0435 \\u0441\\u043f\\u043e\\u043d\\u0441\\u043e\\u0440\\u0430\"]}}]"
+		}
+	},
+	{
+		"model": "admin.logentry",
+		"pk": 16,
+		"fields": {
+			"action_time": "2021-01-13T00:55:22.022Z",
+			"user": 1,
+			"content_type": 10,
+			"object_id": "1",
+			"object_repr": "WhatZap",
+			"action_flag": 2,
+			"change_message": "[{\"changed\": {\"fields\": [\"\\u041d\\u0430\\u0437\\u0432\\u0430\\u043d\\u0438\\u0435 \\u0441\\u043f\\u043e\\u043d\\u0441\\u043e\\u0440\\u0430\", \"\\u041e\\u043f\\u0438\\u0441\\u0430\\u043d\\u0438\\u0435\"]}}]"
+		}
+	},
+	{
+		"model": "admin.logentry",
+		"pk": 17,
+		"fields": {
+			"action_time": "2021-01-13T00:56:12.392Z",
+			"user": 1,
+			"content_type": 10,
+			"object_id": "5",
+			"object_repr": "Войска Национальной Гвардии Восточного округа Российской Федерации",
+			"action_flag": 1,
+			"change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"\\u041b\\u043e\\u0433\\u043e\\u0442\\u0438\\u043f \\u0441\\u043f\\u043e\\u043d\\u0441\\u043e\\u0440\\u0430\", \"object\": \"/media/%D0%92%D0%BE%D0%B9%D1%81%D0%BA%D0%B0_%D0%9D%D0%B0%D1%86%D0%B8%D0%BE%D0%BD%D0%B0%D0%BB%D1%8C%D0%BD%D0%BE%D0%B9_%D0%93%D0%B2%D0%B0%D1%80%D0%B4%D0%B8%D0%B8_%D0%92%D0%BE%D1%81%D1%82%D0%BE%D1%87%D0%BD%D0%BE%D0%B3%D0%BE_%D0%BE%D0%BA%D1%80%D1%83%D0%B3%D0%B0_%D0%A0%D0%BE%D1%81%D1%81%D0%B8%D0%B9%D1%81%D0%BA%D0%BE%D0%B9_%D0%A4%D0%B5%D0%B4%D0%B5%D1%80%D0%B0%D1%86%D0%B8%D0%B8.jpg\"}}]"
+		}
+	},
+	{
+		"model": "admin.logentry",
+		"pk": 18,
+		"fields": {
+			"action_time": "2021-01-13T00:56:52.307Z",
+			"user": 1,
+			"content_type": 10,
+			"object_id": "6",
+			"object_repr": "Галактика",
+			"action_flag": 1,
+			"change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"\\u041b\\u043e\\u0433\\u043e\\u0442\\u0438\\u043f \\u0441\\u043f\\u043e\\u043d\\u0441\\u043e\\u0440\\u0430\", \"object\": \"/media/%D0%93%D0%B0%D0%BB%D0%B0%D0%BA%D1%82%D0%B8%D0%BA%D0%B0.png\"}}]"
+		}
+	},
+	{
+		"model": "admin.logentry",
+		"pk": 19,
+		"fields": {
+			"action_time": "2021-01-13T01:05:20.512Z",
+			"user": 1,
+			"content_type": 7,
+			"object_id": "4",
+			"object_repr": "III Дальневосточные юношеские Игры боевых искусств",
+			"action_flag": 2,
+			"change_message": "[{\"changed\": {\"fields\": [\"\\u0417\\u0430\\u0433\\u043e\\u043b\\u043e\\u0432\\u043e\\u043a \\u0441\\u0442\\u0430\\u0442\\u044c\\u0438\", \"\\u0422\\u0435\\u043a\\u0441\\u0442 \\u0441\\u0442\\u0430\\u0442\\u044c\\u0438\"]}}, {\"added\": {\"name\": \"\\u0424\\u043e\\u0442\\u043e\\u0433\\u0440\\u0430\\u0444\\u0438\\u044f \\u0441\\u0442\\u0430\\u0442\\u044c\\u0438\", \"object\": \"/media/2021-01-13_11-03-55.jpg\"}}]"
+		}
+	},
+	{
+		"model": "admin.logentry",
+		"pk": 20,
+		"fields": {
+			"action_time": "2021-01-13T01:07:02.281Z",
+			"user": 1,
+			"content_type": 7,
+			"object_id": "2",
+			"object_repr": "Хабаровский край принял участие в юбилейном XXV Чемпионате России по КУДО",
+			"action_flag": 2,
+			"change_message": "[{\"changed\": {\"fields\": [\"\\u0417\\u0430\\u0433\\u043e\\u043b\\u043e\\u0432\\u043e\\u043a \\u0441\\u0442\\u0430\\u0442\\u044c\\u0438\", \"\\u0422\\u0435\\u043a\\u0441\\u0442 \\u0441\\u0442\\u0430\\u0442\\u044c\\u0438\"]}}, {\"changed\": {\"name\": \"\\u0424\\u043e\\u0442\\u043e\\u0433\\u0440\\u0430\\u0444\\u0438\\u044f \\u0441\\u0442\\u0430\\u0442\\u044c\\u0438\", \"object\": \"/media/2021-01-13_11-06-11.jpg\", \"fields\": [\"\\u0424\\u043e\\u0442\\u043e\\u0433\\u0440\\u0430\\u0444\\u0438\\u0438 \\u0441\\u0442\\u0430\\u0442\\u044c\\u0438\"]}}]"
+		}
+	},
+	{
+		"model": "admin.logentry",
+		"pk": 21,
+		"fields": {
+			"action_time": "2021-01-13T01:10:47.079Z",
+			"user": 1,
+			"content_type": 7,
+			"object_id": "1",
+			"object_repr": "V открытый Чемпионат и Первенство Хабаровского края по КУДО памяти Героя России Маслова И.В.",
+			"action_flag": 2,
+			"change_message": "[{\"changed\": {\"fields\": [\"\\u0417\\u0430\\u0433\\u043e\\u043b\\u043e\\u0432\\u043e\\u043a \\u0441\\u0442\\u0430\\u0442\\u044c\\u0438\", \"\\u0422\\u0435\\u043a\\u0441\\u0442 \\u0441\\u0442\\u0430\\u0442\\u044c\\u0438\", \"\\u0414\\u0430\\u0442\\u0430 \\u043f\\u0443\\u0431\\u043b\\u0438\\u043a\\u0430\\u0446\\u0438\\u0438\"]}}, {\"changed\": {\"name\": \"\\u0424\\u043e\\u0442\\u043e\\u0433\\u0440\\u0430\\u0444\\u0438\\u044f \\u0441\\u0442\\u0430\\u0442\\u044c\\u0438\", \"object\": \"/media/2021-01-13_11-10-09.jpg\", \"fields\": [\"\\u0424\\u043e\\u0442\\u043e\\u0433\\u0440\\u0430\\u0444\\u0438\\u0438 \\u0441\\u0442\\u0430\\u0442\\u044c\\u0438\"]}}]"
+		}
+	},
+	{
+		"model": "admin.logentry",
+		"pk": 22,
+		"fields": {
+			"action_time": "2021-01-13T01:10:58.475Z",
+			"user": 1,
+			"content_type": 7,
+			"object_id": "2",
+			"object_repr": "Хабаровский край принял участие в юбилейном XXV Чемпионате России по КУДО",
+			"action_flag": 2,
+			"change_message": "[{\"changed\": {\"fields\": [\"\\u0414\\u0430\\u0442\\u0430 \\u043f\\u0443\\u0431\\u043b\\u0438\\u043a\\u0430\\u0446\\u0438\\u0438\"]}}]"
+		}
+	},
+	{
+		"model": "admin.logentry",
+		"pk": 23,
+		"fields": {
+			"action_time": "2021-01-13T01:11:18.038Z",
+			"user": 1,
+			"content_type": 7,
+			"object_id": "4",
+			"object_repr": "III Дальневосточные юношеские Игры боевых искусств",
+			"action_flag": 2,
+			"change_message": "[{\"changed\": {\"fields\": [\"\\u0414\\u0430\\u0442\\u0430 \\u043f\\u0443\\u0431\\u043b\\u0438\\u043a\\u0430\\u0446\\u0438\\u0438\"]}}]"
+		}
+	},
+	{
+		"model": "admin.logentry",
+		"pk": 24,
+		"fields": {
+			"action_time": "2021-01-13T01:11:37.087Z",
+			"user": 1,
+			"content_type": 7,
+			"object_id": "3",
+			"object_repr": "соревнования1",
+			"action_flag": 2,
+			"change_message": "[]"
+		}
+	},
+	{
+		"model": "admin.logentry",
+		"pk": 25,
+		"fields": {
+			"action_time": "2021-01-13T01:12:06.648Z",
+			"user": 1,
+			"content_type": 7,
+			"object_id": "4",
+			"object_repr": "III Дальневосточные юношеские Игры боевых искусств",
+			"action_flag": 2,
+			"change_message": "[]"
+		}
+	},
+	{
+		"model": "admin.logentry",
+		"pk": 26,
+		"fields": {
+			"action_time": "2021-01-13T01:12:17.483Z",
+			"user": 1,
+			"content_type": 7,
+			"object_id": "2",
+			"object_repr": "Хабаровский край принял участие в юбилейном XXV Чемпионате России по КУДО",
+			"action_flag": 2,
+			"change_message": "[{\"changed\": {\"fields\": [\"\\u0414\\u0430\\u0442\\u0430 \\u043f\\u0443\\u0431\\u043b\\u0438\\u043a\\u0430\\u0446\\u0438\\u0438\"]}}]"
+		}
+	},
+	{
+		"model": "admin.logentry",
+		"pk": 27,
+		"fields": {
+			"action_time": "2021-01-13T01:12:41.064Z",
+			"user": 1,
+			"content_type": 7,
+			"object_id": "2",
+			"object_repr": "Хабаровский край принял участие в юбилейном XXV Чемпионате России по КУДО",
+			"action_flag": 2,
+			"change_message": "[{\"changed\": {\"fields\": [\"\\u0414\\u0430\\u0442\\u0430 \\u043f\\u0443\\u0431\\u043b\\u0438\\u043a\\u0430\\u0446\\u0438\\u0438\"]}}]"
+		}
+	},
+	{
+		"model": "admin.logentry",
+		"pk": 28,
+		"fields": {
+			"action_time": "2021-01-13T01:12:48.840Z",
+			"user": 1,
+			"content_type": 7,
+			"object_id": "3",
+			"object_repr": "соревнования1",
+			"action_flag": 2,
+			"change_message": "[{\"changed\": {\"fields\": [\"\\u0414\\u0430\\u0442\\u0430 \\u043f\\u0443\\u0431\\u043b\\u0438\\u043a\\u0430\\u0446\\u0438\\u0438\"]}}]"
+		}
+	},
+	{
+		"model": "admin.logentry",
+		"pk": 29,
+		"fields": {
+			"action_time": "2021-02-13T07:17:07.732Z",
+			"user": 1,
+			"content_type": 7,
+			"object_id": "4",
+			"object_repr": "III Дальневосточные юношеские Игры боевых искусств",
+			"action_flag": 2,
+			"change_message": "[{\"changed\": {\"name\": \"\\u0424\\u043e\\u0442\\u043e\\u0433\\u0440\\u0430\\u0444\\u0438\\u044f \\u0441\\u0442\\u0430\\u0442\\u044c\\u0438\", \"object\": \"/media/III_%D0%94%D0%B0%D0%BB%D1%8C%D0%BD%D0%B5%D0%B2%D0%BE%D1%81%D1%82%D0%BE%D1%87%D0%BD%D1%8B%D0%B5_%D1%8E%D0%BD%D0%BE%D1%88%D0%B5%D1%81%D0%BA%D0%B8%D0%B5_%D0%98%D0%B3%D1%80%D1%8B_%D0%B1%D0%BE%D0%B5%D0%B2%D1%8B%D1%85_%D0%B8%D1%81%D0%BA%D1%83%D1%81%D1%81%D1%82%D0%B2.jpg\", \"fields\": [\"\\u0424\\u043e\\u0442\\u043e\\u0433\\u0440\\u0430\\u0444\\u0438\\u0438 \\u0441\\u0442\\u0430\\u0442\\u044c\\u0438\"]}}]"
+		}
+	},
+	{
+		"model": "admin.logentry",
+		"pk": 30,
+		"fields": {
+			"action_time": "2021-02-13T07:17:33.210Z",
+			"user": 1,
+			"content_type": 7,
+			"object_id": "4",
+			"object_repr": "III Дальневосточные юношеские Игры боевых искусств",
+			"action_flag": 2,
+			"change_message": "[{\"changed\": {\"fields\": [\"\\u0422\\u0435\\u043a\\u0441\\u0442 \\u0441\\u0442\\u0430\\u0442\\u044c\\u0438\"]}}]"
+		}
+	},
+	{
+		"model": "admin.logentry",
+		"pk": 31,
+		"fields": {
+			"action_time": "2021-02-13T07:18:12.168Z",
+			"user": 1,
+			"content_type": 7,
+			"object_id": "2",
+			"object_repr": "Хабаровский край принял участие в юбилейном XXV Чемпионате России по КУДО",
+			"action_flag": 2,
+			"change_message": "[{\"changed\": {\"fields\": [\"\\u0422\\u0435\\u043a\\u0441\\u0442 \\u0441\\u0442\\u0430\\u0442\\u044c\\u0438\"]}}, {\"changed\": {\"name\": \"\\u0424\\u043e\\u0442\\u043e\\u0433\\u0440\\u0430\\u0444\\u0438\\u044f \\u0441\\u0442\\u0430\\u0442\\u044c\\u0438\", \"object\": \"/media/%D0%A5%D0%B0%D0%B1%D0%B0%D1%80%D0%BE%D0%B2%D1%81%D0%BA%D0%B8%D0%B9_%D0%BA%D1%80%D0%B0%D0%B9_%D0%BF%D1%80%D0%B8%D0%BD%D1%8F%D0%BB_%D1%83%D1%87%D0%B0%D1%81%D1%82%D0%B8%D0%B5_%D0%B2_%D1%8E%D0%B1%D0%B8%D0%BB%D0%B5%D0%B9%D0%BD%D0%BE%D0%BC_XXV_%D0%A7%D0%B5%D0%BC%D0%BF%D0%B8%D0%BE%D0%BD%D0%B0%D1%82%D0%B5_%D0%A0%D0%BE%D1%81%D1%81%D0%B8%D0%B8_%D0%BF%D0%BE_%D0%9A%D0%A3%D0%94%D0%9E.jpg\", \"fields\": [\"\\u0424\\u043e\\u0442\\u043e\\u0433\\u0440\\u0430\\u0444\\u0438\\u0438 \\u0441\\u0442\\u0430\\u0442\\u044c\\u0438\"]}}]"
+		}
+	},
+	{
+		"model": "admin.logentry",
+		"pk": 32,
+		"fields": {
+			"action_time": "2021-02-13T07:19:35.036Z",
+			"user": 1,
+			"content_type": 7,
+			"object_id": "1",
+			"object_repr": "V открытый Чемпионат и Первенство Хабаровского края по КУДО памяти Героя России Маслова И.В.",
+			"action_flag": 2,
+			"change_message": "[{\"changed\": {\"fields\": [\"\\u0422\\u0435\\u043a\\u0441\\u0442 \\u0441\\u0442\\u0430\\u0442\\u044c\\u0438\"]}}, {\"changed\": {\"name\": \"\\u0424\\u043e\\u0442\\u043e\\u0433\\u0440\\u0430\\u0444\\u0438\\u044f \\u0441\\u0442\\u0430\\u0442\\u044c\\u0438\", \"object\": \"/media/V_%D0%BE%D1%82%D0%BA%D1%80%D1%8B%D1%82%D1%8B%D0%B9_%D0%A7%D0%B5%D0%BC%D0%BF%D0%B8%D0%BE%D0%BD%D0%B0%D1%82_%D0%B8_%D0%9F%D0%B5%D1%80%D0%B2%D0%B5%D0%BD%D1%81%D1%82%D0%B2%D0%BE_%D0%A5%D0%B0%D0%B1%D0%B0%D1%80%D0%BE%D0%B2%D1%81%D0%BA%D0%BE%D0%B3%D0%BE_%D0%BA%D1%80%D0%B0%D1%8F_%D0%BF%D0%BE_%D0%9A%D0%A3%D0%94%D0%9E_%D0%BF%D0%B0%D0%BC%D1%8F%D1%82%D0%B8_%D0%93%D0%B5%D1%80%D0%BE%D1%8F_%D0%A0%D0%BE%D1%81%D1%81%D0%B8%D0%B8_%D0%9C%D0%B0%D1%81%D0%BB%D0%BE%D0%B2%D0%B0_%D0%98.%D0%92..jpg\", \"fields\": [\"\\u0424\\u043e\\u0442\\u043e\\u0433\\u0440\\u0430\\u0444\\u0438\\u0438 \\u0441\\u0442\\u0430\\u0442\\u044c\\u0438\"]}}]"
+		}
+	},
+	{
+		"model": "admin.logentry",
+		"pk": 33,
+		"fields": {
+			"action_time": "2021-02-13T07:19:58.477Z",
+			"user": 1,
+			"content_type": 7,
+			"object_id": "3",
+			"object_repr": "соревнования1",
+			"action_flag": 3,
+			"change_message": ""
+		}
+	},
+	{
+		"model": "admin.logentry",
+		"pk": 34,
+		"fields": {
+			"action_time": "2021-02-13T07:22:47.297Z",
+			"user": 1,
+			"content_type": 7,
+			"object_id": "5",
+			"object_repr": "Хабаровчане выиграли пять медалей чемпионата ДФО по КУДО.jpg",
+			"action_flag": 1,
+			"change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"\\u0424\\u043e\\u0442\\u043e\\u0433\\u0440\\u0430\\u0444\\u0438\\u044f \\u0441\\u0442\\u0430\\u0442\\u044c\\u0438\", \"object\": \"/media/%D0%A5%D0%B0%D0%B1%D0%B0%D1%80%D0%BE%D0%B2%D1%87%D0%B0%D0%BD%D0%B5_%D0%B2%D1%8B%D0%B8%D0%B3%D1%80%D0%B0%D0%BB%D0%B8_%D0%BF%D1%8F%D1%82%D1%8C_%D0%BC%D0%B5%D0%B4%D0%B0%D0%BB%D0%B5%D0%B9_%D1%87%D0%B5%D0%BC%D0%BF%D0%B8%D0%BE%D0%BD%D0%B0%D1%82%D0%B0_%D0%94%D0%A4%D0%9E_%D0%BF%D0%BE_%D0%9A%D0%A3%D0%94%D0%9E.jpg\"}}]"
+		}
+	},
+	{
+		"model": "admin.logentry",
+		"pk": 35,
+		"fields": {
+			"action_time": "2021-02-13T07:25:53.587Z",
+			"user": 1,
+			"content_type": 7,
+			"object_id": "6",
+			"object_repr": "Сборная Хабаровского края по кудо завоевала большинство наград на Кубке ДФО",
+			"action_flag": 1,
+			"change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"\\u0424\\u043e\\u0442\\u043e\\u0433\\u0440\\u0430\\u0444\\u0438\\u044f \\u0441\\u0442\\u0430\\u0442\\u044c\\u0438\", \"object\": \"/media/%D0%A1%D0%B1%D0%BE%D1%80%D0%BD%D0%B0%D1%8F_%D0%A5%D0%B0%D0%B1%D0%B0%D1%80%D0%BE%D0%B2%D1%81%D0%BA%D0%BE%D0%B3%D0%BE_%D0%BA%D1%80%D0%B0%D1%8F_%D0%BF%D0%BE_%D0%BA%D1%83%D0%B4%D0%BE_%D0%B7%D0%B0%D0%B2%D0%BE%D0%B5%D0%B2%D0%B0%D0%BB%D0%B0_%D0%B1%D0%BE%D0%BB%D1%8C%D1%88%D0%B8%D0%BD%D1%81%D1%82%D0%B2%D0%BE_%D0%BD%D0%B0%D0%B3%D1%80%D0%B0%D0%B4_%D0%BD%D0%B0_%D0%9A%D1%83%D0%B1%D0%BA%D0%B5_%D0%94%D0%A4%D0%9E.jpg\"}}]"
+		}
+	},
+	{
+		"model": "admin.logentry",
+		"pk": 36,
+		"fields": {
+			"action_time": "2021-02-13T07:27:47.990Z",
+			"user": 1,
+			"content_type": 7,
+			"object_id": "7",
+			"object_repr": "IV открытый Чемпионат и первенство Хабаровского края по КУДО памяти Героя России Маслова И.В.",
+			"action_flag": 1,
+			"change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"\\u0424\\u043e\\u0442\\u043e\\u0433\\u0440\\u0430\\u0444\\u0438\\u044f \\u0441\\u0442\\u0430\\u0442\\u044c\\u0438\", \"object\": \"/media/IV_%D0%BE%D1%82%D0%BA%D1%80%D1%8B%D1%82%D1%8B%D0%B9_%D0%A7%D0%B5%D0%BC%D0%BF%D0%B8%D0%BE%D0%BD%D0%B0%D1%82_%D0%B8_%D0%BF%D0%B5%D1%80%D0%B2%D0%B5%D0%BD%D1%81%D1%82%D0%B2%D0%BE_%D0%A5%D0%B0%D0%B1%D0%B0%D1%80%D0%BE%D0%B2%D1%81%D0%BA%D0%BE%D0%B3%D0%BE_%D0%BA%D1%80%D0%B0%D1%8F_%D0%BF%D0%BE_%D0%9A%D0%A3%D0%94%D0%9E_%D0%BF%D0%B0%D0%BC%D1%8F%D1%82%D0%B8_%D0%93%D0%B5%D1%80%D0%BE%D1%8F_%D0%A0%D0%BE%D1%81%D1%81%D0%B8%D0%B8_%D0%9C%D0%B0%D1%81%D0%BB%D0%BE%D0%B2%D0%B0_%D0%98.%D0%92..jpg\"}}]"
+		}
+	},
+	{
+		"model": "admin.logentry",
+		"pk": 37,
+		"fields": {
+			"action_time": "2021-02-13T07:30:15.018Z",
+			"user": 1,
+			"content_type": 7,
+			"object_id": "8",
+			"object_repr": "Победитель Первенства России по КУДО",
+			"action_flag": 1,
+			"change_message": "[{\"added\": {}}]"
+		}
+	},
+	{
+		"model": "admin.logentry",
+		"pk": 38,
+		"fields": {
+			"action_time": "2021-02-13T07:33:32.128Z",
+			"user": 1,
+			"content_type": 7,
+			"object_id": "9",
+			"object_repr": "Кубок Дальневосточного Федерального Округа России по КУДО",
+			"action_flag": 1,
+			"change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"\\u0424\\u043e\\u0442\\u043e\\u0433\\u0440\\u0430\\u0444\\u0438\\u044f \\u0441\\u0442\\u0430\\u0442\\u044c\\u0438\", \"object\": \"/media/%D0%9A%D1%83%D0%B1%D0%BE%D0%BA_%D0%94%D0%B0%D0%BB%D1%8C%D0%BD%D0%B5%D0%B2%D0%BE%D1%81%D1%82%D0%BE%D1%87%D0%BD%D0%BE%D0%B3%D0%BE_%D0%A4%D0%B5%D0%B4%D0%B5%D1%80%D0%B0%D0%BB%D1%8C%D0%BD%D0%BE%D0%B3%D0%BE_%D0%9E%D0%BA%D1%80%D1%83%D0%B3%D0%B0_%D0%A0%D0%BE%D1%81%D1%81%D0%B8%D0%B8_%D0%BF%D0%BE_%D0%9A%D0%A3%D0%94%D0%9E.jpg\"}}]"
+		}
+	},
+	{
+		"model": "admin.logentry",
+		"pk": 39,
+		"fields": {
+			"action_time": "2021-02-13T07:39:10.209Z",
+			"user": 1,
+			"content_type": 7,
+			"object_id": "10",
+			"object_repr": "ТЕСТОВАЯ 9 новость",
+			"action_flag": 1,
+			"change_message": "[{\"added\": {}}]"
+		}
+	},
+	{
+		"model": "admin.logentry",
+		"pk": 40,
+		"fields": {
+			"action_time": "2021-02-13T07:39:28.248Z",
+			"user": 1,
+			"content_type": 7,
+			"object_id": "10",
+			"object_repr": "ТЕСТОВАЯ 9 новость",
+			"action_flag": 2,
+			"change_message": "[{\"added\": {\"name\": \"\\u0424\\u043e\\u0442\\u043e\\u0433\\u0440\\u0430\\u0444\\u0438\\u044f \\u0441\\u0442\\u0430\\u0442\\u044c\\u0438\", \"object\": \"/media/.jpg\"}}]"
+		}
+	},
+	{
+		"model": "admin.logentry",
+		"pk": 41,
+		"fields": {
+			"action_time": "2021-02-13T07:47:59.147Z",
+			"user": 1,
+			"content_type": 7,
+			"object_id": "9",
+			"object_repr": "Кубок Дальневосточного Федерального Округа России по КУДО",
+			"action_flag": 2,
+			"change_message": "[{\"changed\": {\"fields\": [\"\\u0422\\u0435\\u043a\\u0441\\u0442 \\u0441\\u0442\\u0430\\u0442\\u044c\\u0438\"]}}]"
+		}
+	},
+	{
+		"model": "admin.logentry",
+		"pk": 42,
+		"fields": {
+			"action_time": "2021-02-13T07:48:32.646Z",
+			"user": 1,
+			"content_type": 7,
+			"object_id": "9",
+			"object_repr": "Кубок Дальневосточного Федерального Округа России по КУДО",
+			"action_flag": 2,
+			"change_message": "[{\"changed\": {\"fields\": [\"\\u0422\\u0435\\u043a\\u0441\\u0442 \\u0441\\u0442\\u0430\\u0442\\u044c\\u0438\"]}}]"
+		}
+	},
+	{
+		"model": "admin.logentry",
+		"pk": 43,
+		"fields": {
+			"action_time": "2021-02-13T07:51:45.942Z",
+			"user": 1,
+			"content_type": 7,
+			"object_id": "8",
+			"object_repr": "Победитель Первенства России по КУДО",
+			"action_flag": 2,
+			"change_message": "[{\"added\": {\"name\": \"\\u0424\\u043e\\u0442\\u043e\\u0433\\u0440\\u0430\\u0444\\u0438\\u044f \\u0441\\u0442\\u0430\\u0442\\u044c\\u0438\", \"object\": \"/media/%D0%9F%D0%BE%D0%B1%D0%B5%D0%B4%D0%B8%D1%82%D0%B5%D0%BB%D1%8C_%D0%9F%D0%B5%D1%80%D0%B2%D0%B5%D0%BD%D1%81%D1%82%D0%B2%D0%B0_%D0%A0%D0%BE%D1%81%D1%81%D0%B8%D0%B8_%D0%BF%D0%BE_%D0%9A%D0%A3%D0%94%D0%9E.jpg\"}}]"
+		}
+	},
+	{
+		"model": "admin.logentry",
+		"pk": 44,
+		"fields": {
+			"action_time": "2021-02-13T07:59:30.647Z",
+			"user": 1,
+			"content_type": 10,
+			"object_id": "6",
+			"object_repr": "Галактика",
+			"action_flag": 2,
+			"change_message": "[{\"changed\": {\"fields\": [\"\\u041e\\u043f\\u0438\\u0441\\u0430\\u043d\\u0438\\u0435\", \"\\u0421\\u0441\\u044b\\u043b\\u043a\\u0430 \\u043d\\u0430 \\u0441\\u0430\\u0439\\u0442\"]}}, {\"changed\": {\"name\": \"\\u041b\\u043e\\u0433\\u043e\\u0442\\u0438\\u043f \\u043f\\u0430\\u0440\\u0442\\u043d\\u0435\\u0440\\u0430\", \"object\": \"/media/%D0%93%D0%B0%D0%BB%D0%B0%D0%BA%D1%82%D0%B8%D0%BA%D0%B0.png\", \"fields\": [\"\\u041b\\u043e\\u0433\\u043e\\u0442\\u0438\\u043f \\u043f\\u0430\\u0440\\u0442\\u043d\\u0435\\u0440\\u0430\"]}}]"
+		}
+	},
+	{
+		"model": "admin.logentry",
+		"pk": 45,
+		"fields": {
+			"action_time": "2021-02-13T08:12:53.953Z",
+			"user": 1,
+			"content_type": 10,
+			"object_id": "5",
+			"object_repr": "Войска Национальной Гвардии Восточного округа Российской Федерации",
+			"action_flag": 2,
+			"change_message": "[{\"changed\": {\"fields\": [\"\\u041e\\u043f\\u0438\\u0441\\u0430\\u043d\\u0438\\u0435\", \"\\u0421\\u0441\\u044b\\u043b\\u043a\\u0430 \\u043d\\u0430 \\u0441\\u0430\\u0439\\u0442\"]}}, {\"changed\": {\"name\": \"\\u041b\\u043e\\u0433\\u043e\\u0442\\u0438\\u043f \\u043f\\u0430\\u0440\\u0442\\u043d\\u0435\\u0440\\u0430\", \"object\": \"/media/%D0%92%D0%BE%D0%B9%D1%81%D0%BA%D0%B0_%D0%9D%D0%B0%D1%86%D0%B8%D0%BE%D0%BD%D0%B0%D0%BB%D1%8C%D0%BD%D0%BE%D0%B9_%D0%93%D0%B2%D0%B0%D1%80%D0%B4%D0%B8%D0%B8_%D0%92%D0%BE%D1%81%D1%82%D0%BE%D1%87%D0%BD%D0%BE%D0%B3%D0%BE_%D0%BE%D0%BA%D1%80%D1%83%D0%B3%D0%B0_%D0%A0%D0%BE%D1%81%D1%81%D0%B8%D0%B9%D1%81%D0%BA%D0%BE%D0%B9_%D0%A4%D0%B5%D0%B4%D0%B5%D1%80%D0%B0%D1%86%D0%B8%D0%B8.jpg\", \"fields\": [\"\\u041b\\u043e\\u0433\\u043e\\u0442\\u0438\\u043f \\u043f\\u0430\\u0440\\u0442\\u043d\\u0435\\u0440\\u0430\"]}}]"
+		}
+	},
+	{
+		"model": "admin.logentry",
+		"pk": 46,
+		"fields": {
+			"action_time": "2021-02-13T08:22:06.623Z",
+			"user": 1,
+			"content_type": 10,
+			"object_id": "4",
+			"object_repr": "АО Стройсервис",
+			"action_flag": 2,
+			"change_message": "[{\"changed\": {\"fields\": [\"\\u041e\\u043f\\u0438\\u0441\\u0430\\u043d\\u0438\\u0435\", \"\\u0421\\u0441\\u044b\\u043b\\u043a\\u0430 \\u043d\\u0430 \\u0441\\u0430\\u0439\\u0442\"]}}, {\"changed\": {\"name\": \"\\u041b\\u043e\\u0433\\u043e\\u0442\\u0438\\u043f \\u043f\\u0430\\u0440\\u0442\\u043d\\u0435\\u0440\\u0430\", \"object\": \"/media/%D0%90%D0%9E_%D0%A1%D1%82%D1%80%D0%BE%D0%B9%D1%81%D0%B5%D1%80%D0%B2%D0%B8%D1%81.png\", \"fields\": [\"\\u041b\\u043e\\u0433\\u043e\\u0442\\u0438\\u043f \\u043f\\u0430\\u0440\\u0442\\u043d\\u0435\\u0440\\u0430\"]}}]"
+		}
+	},
+	{
+		"model": "admin.logentry",
+		"pk": 47,
+		"fields": {
+			"action_time": "2021-02-13T08:29:46.838Z",
+			"user": 1,
+			"content_type": 10,
+			"object_id": "3",
+			"object_repr": "YourMOVE",
+			"action_flag": 2,
+			"change_message": "[{\"changed\": {\"fields\": [\"\\u041e\\u043f\\u0438\\u0441\\u0430\\u043d\\u0438\\u0435\", \"\\u0421\\u0441\\u044b\\u043b\\u043a\\u0430 \\u043d\\u0430 \\u0441\\u0430\\u0439\\u0442\"]}}, {\"changed\": {\"name\": \"\\u041b\\u043e\\u0433\\u043e\\u0442\\u0438\\u043f \\u043f\\u0430\\u0440\\u0442\\u043d\\u0435\\u0440\\u0430\", \"object\": \"/media/YOUR_MOVE.jpg\", \"fields\": [\"\\u041b\\u043e\\u0433\\u043e\\u0442\\u0438\\u043f \\u043f\\u0430\\u0440\\u0442\\u043d\\u0435\\u0440\\u0430\"]}}]"
+		}
+	},
+	{
+		"model": "admin.logentry",
+		"pk": 48,
+		"fields": {
+			"action_time": "2021-02-13T08:32:11.560Z",
+			"user": 1,
+			"content_type": 10,
+			"object_id": "2",
+			"object_repr": "DVHAB.RU",
+			"action_flag": 2,
+			"change_message": "[{\"changed\": {\"fields\": [\"\\u041e\\u043f\\u0438\\u0441\\u0430\\u043d\\u0438\\u0435\", \"\\u0421\\u0441\\u044b\\u043b\\u043a\\u0430 \\u043d\\u0430 \\u0441\\u0430\\u0439\\u0442\"]}}, {\"changed\": {\"name\": \"\\u041b\\u043e\\u0433\\u043e\\u0442\\u0438\\u043f \\u043f\\u0430\\u0440\\u0442\\u043d\\u0435\\u0440\\u0430\", \"object\": \"/media/DVHAB.png\", \"fields\": [\"\\u041b\\u043e\\u0433\\u043e\\u0442\\u0438\\u043f \\u043f\\u0430\\u0440\\u0442\\u043d\\u0435\\u0440\\u0430\"]}}]"
+		}
+	},
+	{
+		"model": "admin.logentry",
+		"pk": 49,
+		"fields": {
+			"action_time": "2021-02-13T08:33:44.882Z",
+			"user": 1,
+			"content_type": 10,
+			"object_id": "1",
+			"object_repr": "WhatZap",
+			"action_flag": 2,
+			"change_message": "[{\"changed\": {\"fields\": [\"\\u041e\\u043f\\u0438\\u0441\\u0430\\u043d\\u0438\\u0435\", \"\\u0421\\u0441\\u044b\\u043b\\u043a\\u0430 \\u043d\\u0430 \\u0441\\u0430\\u0439\\u0442\"]}}, {\"changed\": {\"name\": \"\\u041b\\u043e\\u0433\\u043e\\u0442\\u0438\\u043f \\u043f\\u0430\\u0440\\u0442\\u043d\\u0435\\u0440\\u0430\", \"object\": \"/media/whatzap_%D0%BB%D0%BE%D0%B3%D0%BE.png\", \"fields\": [\"\\u041b\\u043e\\u0433\\u043e\\u0442\\u0438\\u043f \\u043f\\u0430\\u0440\\u0442\\u043d\\u0435\\u0440\\u0430\"]}}]"
+		}
+	},
+	{
+		"model": "admin.logentry",
+		"pk": 50,
+		"fields": {
+			"action_time": "2021-02-13T08:36:23.817Z",
+			"user": 1,
+			"content_type": 10,
+			"object_id": "7",
+			"object_repr": "Дисконт-ДВ",
+			"action_flag": 1,
+			"change_message": "[{\"added\": {}}]"
+		}
+	},
+	{
+		"model": "admin.logentry",
+		"pk": 51,
+		"fields": {
+			"action_time": "2021-02-13T08:37:13.843Z",
+			"user": 1,
+			"content_type": 10,
+			"object_id": "7",
+			"object_repr": "ООО \"ЧОО Дисконт ДВ\"",
+			"action_flag": 2,
+			"change_message": "[{\"changed\": {\"fields\": [\"\\u041d\\u0430\\u0437\\u0432\\u0430\\u043d\\u0438\\u0435 \\u043f\\u0430\\u0440\\u0442\\u043d\\u0435\\u0440\\u0430\"]}}, {\"added\": {\"name\": \"\\u041b\\u043e\\u0433\\u043e\\u0442\\u0438\\u043f \\u043f\\u0430\\u0440\\u0442\\u043d\\u0435\\u0440\\u0430\", \"object\": \"/media/%D0%94%D0%B8%D1%81%D0%BA%D0%BE%D0%BD%D1%82-%D0%94%D0%92.png\"}}]"
+		}
+	},
+	{
+		"model": "admin.logentry",
+		"pk": 52,
+		"fields": {
+			"action_time": "2021-02-13T08:39:25.194Z",
+			"user": 1,
+			"content_type": 10,
+			"object_id": "8",
+			"object_repr": "Logo_SLAVDA",
+			"action_flag": 1,
+			"change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"\\u041b\\u043e\\u0433\\u043e\\u0442\\u0438\\u043f \\u043f\\u0430\\u0440\\u0442\\u043d\\u0435\\u0440\\u0430\", \"object\": \"/media/Logo_SLAVDA.png\"}}]"
+		}
+	},
+	{
+		"model": "admin.logentry",
+		"pk": 53,
+		"fields": {
+			"action_time": "2021-02-13T08:45:25.876Z",
+			"user": 1,
+			"content_type": 10,
+			"object_id": "9",
+			"object_repr": "МК-Восток",
+			"action_flag": 1,
+			"change_message": "[{\"added\": {}}]"
+		}
+	},
+	{
+		"model": "admin.logentry",
+		"pk": 54,
+		"fields": {
+			"action_time": "2021-02-13T08:45:54.336Z",
+			"user": 1,
+			"content_type": 10,
+			"object_id": "9",
+			"object_repr": "МК-Восток",
+			"action_flag": 2,
+			"change_message": "[{\"added\": {\"name\": \"\\u041b\\u043e\\u0433\\u043e\\u0442\\u0438\\u043f \\u043f\\u0430\\u0440\\u0442\\u043d\\u0435\\u0440\\u0430\", \"object\": \"/media/mk-vostok.jpg\"}}]"
+		}
+	},
+	{
+		"model": "admin.logentry",
+		"pk": 55,
+		"fields": {
+			"action_time": "2021-02-13T08:49:36.681Z",
+			"user": 1,
+			"content_type": 10,
+			"object_id": "10",
+			"object_repr": "Майкл",
+			"action_flag": 1,
+			"change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"\\u041b\\u043e\\u0433\\u043e\\u0442\\u0438\\u043f \\u043f\\u0430\\u0440\\u0442\\u043d\\u0435\\u0440\\u0430\", \"object\": \"/media/%D0%9B%D0%BE%D0%B3%D0%BE_%D0%9C%D0%B0%D0%B9%D0%BA%D0%BB.jpg\"}}]"
+		}
+	},
+	{
+		"model": "admin.logentry",
+		"pk": 56,
+		"fields": {
+			"action_time": "2021-02-13T08:53:00.896Z",
+			"user": 1,
+			"content_type": 10,
+			"object_id": "11",
+			"object_repr": "Министерство спорта и молодежной политики Хабаровского края",
+			"action_flag": 1,
+			"change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"\\u041b\\u043e\\u0433\\u043e\\u0442\\u0438\\u043f \\u043f\\u0430\\u0440\\u0442\\u043d\\u0435\\u0440\\u0430\", \"object\": \"/media/%D0%9C%D0%B8%D0%BD%D0%B8%D1%81%D1%82%D0%B5%D1%80%D1%81%D1%82%D0%B2%D0%BE_%D1%81%D0%BF%D0%BE%D1%80%D1%82%D0%B0_%D0%B8_%D0%BC%D0%BE%D0%BB%D0%BE%D0%B4%D0%B5%D0%B6%D0%BD%D0%BE%D0%B9_%D0%BF%D0%BE%D0%BB%D0%B8%D1%82%D0%B8%D0%BA%D0%B8_%D0%A5%D0%B0%D0%B1%D0%B0%D1%80%D0%BE%D0%B2%D1%81%D0%BA%D0%BE%D0%B3%D0%BE_%D0%BA%D1%80%D0%B0%D1%8F.png\"}}]"
+		}
+	},
+	{
+		"model": "admin.logentry",
+		"pk": 57,
+		"fields": {
+			"action_time": "2021-02-13T08:55:41.536Z",
+			"user": 1,
+			"content_type": 10,
+			"object_id": "12",
+			"object_repr": "Первый Медицинский",
+			"action_flag": 1,
+			"change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"\\u041b\\u043e\\u0433\\u043e\\u0442\\u0438\\u043f \\u043f\\u0430\\u0440\\u0442\\u043d\\u0435\\u0440\\u0430\", \"object\": \"/media/%D0%9F%D0%B5%D1%80%D0%B2%D1%8B%D0%B9_%D0%9C%D0%B5%D0%B4%D0%B8%D1%86%D0%B8%D0%BD%D1%81%D0%BA%D0%B8%D0%B9.png\"}}]"
+		}
+	},
+	{
+		"model": "admin.logentry",
+		"pk": 58,
+		"fields": {
+			"action_time": "2021-02-13T08:57:22.262Z",
+			"user": 1,
+			"content_type": 10,
+			"object_id": "13",
+			"object_repr": "Цветочный салон Орхидея",
+			"action_flag": 1,
+			"change_message": "[{\"added\": {}}]"
+		}
+	},
+	{
+		"model": "admin.logentry",
+		"pk": 59,
+		"fields": {
+			"action_time": "2021-02-13T08:57:50.277Z",
+			"user": 1,
+			"content_type": 10,
+			"object_id": "13",
+			"object_repr": "Цветочный салон Орхидея",
+			"action_flag": 2,
+			"change_message": "[{\"added\": {\"name\": \"\\u041b\\u043e\\u0433\\u043e\\u0442\\u0438\\u043f \\u043f\\u0430\\u0440\\u0442\\u043d\\u0435\\u0440\\u0430\", \"object\": \"/media/%D0%A6%D0%B2%D0%B5%D1%82%D0%BE%D1%87%D0%BD%D1%8B%D0%B9_%D1%81%D0%B0%D0%BB%D0%BE%D0%BD_%D0%9E%D1%80%D1%85%D0%B8%D0%B4%D0%B5%D1%8F.png\"}}]"
+		}
+	},
+	{
+		"model": "admin.logentry",
+		"pk": 60,
+		"fields": {
+			"action_time": "2021-02-13T09:00:17.369Z",
+			"user": 1,
+			"content_type": 10,
+			"object_id": "14",
+			"object_repr": "ЧОО \"Добрыня\"",
+			"action_flag": 1,
+			"change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"\\u041b\\u043e\\u0433\\u043e\\u0442\\u0438\\u043f \\u043f\\u0430\\u0440\\u0442\\u043d\\u0435\\u0440\\u0430\", \"object\": \"/media/logo_gotovo_v2.png\"}}]"
+		}
+	},
+	{
+		"model": "admin.logentry",
+		"pk": 61,
+		"fields": {
+			"action_time": "2021-02-13T09:44:55.491Z",
+			"user": 1,
+			"content_type": 12,
+			"object_id": "1",
+			"object_repr": "г. Хабаровск\r\n\r\nКлубы Кудо\r\n1. СК КУДО ДЗЮКУ, ул. Свердлова 30 а\r\n2. СК КИМЭ, ул. Краснореченская 92\r\n3. СК ВОСТОК, ул. Краснореченская 74\r\n4. СК РОССИЧ, ул. Суворова 80\r\n\r\nОтделения\r\nг. Комсомольск-н",
+			"action_flag": 1,
+			"change_message": "[{\"added\": {}}]"
+		}
+	},
+	{
+		"model": "admin.logentry",
+		"pk": 62,
+		"fields": {
+			"action_time": "2021-02-13T09:45:21.927Z",
+			"user": 1,
+			"content_type": 12,
+			"object_id": "1",
+			"object_repr": "г. Хабаровск\r\n\r\nКлубы Кудо\r\n1. СК КУДО ДЗЮКУ, ул. Свердлова 30 а\r\n2. СК КИМЭ, ул. Краснореченская 92\r\n3. СК ВОСТОК, ул. Краснореченская 74\r\n4. СК РОССИЧ, ул. Суворова 80\r\n\r\nОтделения\r\nг. Комсомольск-н",
+			"action_flag": 2,
+			"change_message": "[]"
+		}
+	},
+	{
+		"model": "admin.logentry",
+		"pk": 63,
+		"fields": {
+			"action_time": "2021-02-13T09:47:42.967Z",
+			"user": 1,
+			"content_type": 10,
+			"object_id": "8",
+			"object_repr": "SLAVDA",
+			"action_flag": 2,
+			"change_message": "[{\"changed\": {\"fields\": [\"\\u041d\\u0430\\u0437\\u0432\\u0430\\u043d\\u0438\\u0435 \\u043f\\u0430\\u0440\\u0442\\u043d\\u0435\\u0440\\u0430\"]}}, {\"changed\": {\"name\": \"\\u041b\\u043e\\u0433\\u043e\\u0442\\u0438\\u043f \\u043f\\u0430\\u0440\\u0442\\u043d\\u0435\\u0440\\u0430\", \"object\": \"/media/Logo_SLAVDA1.png\", \"fields\": [\"\\u041b\\u043e\\u0433\\u043e\\u0442\\u0438\\u043f \\u043f\\u0430\\u0440\\u0442\\u043d\\u0435\\u0440\\u0430\"]}}]"
+		}
+	},
+	{
+		"model": "admin.logentry",
+		"pk": 64,
+		"fields": {
+			"action_time": "2021-02-13T09:47:57.093Z",
+			"user": 1,
+			"content_type": 10,
+			"object_id": "14",
+			"object_repr": "ЧОО \"Добрыня\"",
+			"action_flag": 2,
+			"change_message": "[{\"changed\": {\"name\": \"\\u041b\\u043e\\u0433\\u043e\\u0442\\u0438\\u043f \\u043f\\u0430\\u0440\\u0442\\u043d\\u0435\\u0440\\u0430\", \"object\": \"/media/logo_gotovo_v1-.png\", \"fields\": [\"\\u041b\\u043e\\u0433\\u043e\\u0442\\u0438\\u043f \\u043f\\u0430\\u0440\\u0442\\u043d\\u0435\\u0440\\u0430\"]}}]"
+		}
+	},
+	{
+		"model": "admin.logentry",
+		"pk": 65,
+		"fields": {
+			"action_time": "2021-02-13T09:48:33.070Z",
+			"user": 1,
+			"content_type": 10,
+			"object_id": "5",
+			"object_repr": "Войска Национальной Гвардии Восточного округа Российской Федерации",
+			"action_flag": 2,
+			"change_message": "[{\"changed\": {\"name\": \"\\u041b\\u043e\\u0433\\u043e\\u0442\\u0438\\u043f \\u043f\\u0430\\u0440\\u0442\\u043d\\u0435\\u0440\\u0430\", \"object\": \"/media/%D0%92%D0%BE%D0%B9%D1%81%D0%BA%D0%B0_%D0%9D%D0%B0%D1%86%D0%B8%D0%BE%D0%BD%D0%B0%D0%BB%D1%8C%D0%BD%D0%BE%D0%B9_%D0%93%D0%B2%D0%B0%D1%80%D0%B4%D0%B8%D0%B8_%D0%92%D0%BE%D1%81%D1%82%D0%BE%D1%87%D0%BD%D0%BE%D0%B3%D0%BE_%D0%BE%D0%BA%D1%80%D1%83%D0%B3%D0%B0_%D0%A0%D0%BE%D1%81%D1%81%D0%B8%D0%B9%D1%81%D0%BA%D0%BE%D0%B9_%D0%A4%D0%B5%D0%B4%D0%B5%D1%80%D0%B0%D1%86%D0%B8%D0%B8.png\", \"fields\": [\"\\u041b\\u043e\\u0433\\u043e\\u0442\\u0438\\u043f \\u043f\\u0430\\u0440\\u0442\\u043d\\u0435\\u0440\\u0430\"]}}]"
+		}
+	},
+	{
+		"model": "admin.logentry",
+		"pk": 66,
+		"fields": {
+			"action_time": "2021-02-13T09:49:43.541Z",
+			"user": 1,
+			"content_type": 10,
+			"object_id": "13",
+			"object_repr": "Цветочный салон Орхидея",
+			"action_flag": 2,
+			"change_message": "[{\"changed\": {\"fields\": [\"\\u041e\\u043f\\u0438\\u0441\\u0430\\u043d\\u0438\\u0435\"]}}]"
+		}
+	},
+	{
+		"model": "admin.logentry",
+		"pk": 67,
+		"fields": {
+			"action_time": "2021-02-13T09:49:54.931Z",
+			"user": 1,
+			"content_type": 10,
+			"object_id": "13",
+			"object_repr": "Цветочный салон Орхидея",
+			"action_flag": 2,
+			"change_message": "[{\"changed\": {\"fields\": [\"\\u041e\\u043f\\u0438\\u0441\\u0430\\u043d\\u0438\\u0435\"]}}]"
+		}
+	},
+	{
+		"model": "admin.logentry",
+		"pk": 68,
+		"fields": {
+			"action_time": "2021-02-13T09:50:03.169Z",
+			"user": 1,
+			"content_type": 10,
+			"object_id": "12",
+			"object_repr": "Первый Медицинский",
+			"action_flag": 2,
+			"change_message": "[]"
+		}
+	},
+	{
+		"model": "admin.logentry",
+		"pk": 69,
+		"fields": {
+			"action_time": "2021-02-13T09:50:13.330Z",
+			"user": 1,
+			"content_type": 10,
+			"object_id": "11",
+			"object_repr": "Министерство спорта и молодежной политики Хабаровского края",
+			"action_flag": 2,
+			"change_message": "[{\"changed\": {\"fields\": [\"\\u041e\\u043f\\u0438\\u0441\\u0430\\u043d\\u0438\\u0435\"]}}]"
+		}
+	},
+	{
+		"model": "admin.logentry",
+		"pk": 70,
+		"fields": {
+			"action_time": "2021-02-13T09:50:21.817Z",
+			"user": 1,
+			"content_type": 10,
+			"object_id": "10",
+			"object_repr": "Майкл",
+			"action_flag": 2,
+			"change_message": "[{\"changed\": {\"fields\": [\"\\u041e\\u043f\\u0438\\u0441\\u0430\\u043d\\u0438\\u0435\"]}}]"
+		}
+	},
+	{
+		"model": "admin.logentry",
+		"pk": 71,
+		"fields": {
+			"action_time": "2021-02-13T09:50:40.069Z",
+			"user": 1,
+			"content_type": 10,
+			"object_id": "9",
+			"object_repr": "МК-Восток",
+			"action_flag": 2,
+			"change_message": "[{\"changed\": {\"fields\": [\"\\u041e\\u043f\\u0438\\u0441\\u0430\\u043d\\u0438\\u0435\"]}}]"
+		}
+	},
+	{
+		"model": "admin.logentry",
+		"pk": 72,
+		"fields": {
+			"action_time": "2021-02-13T09:50:48.198Z",
+			"user": 1,
+			"content_type": 10,
+			"object_id": "10",
+			"object_repr": "Майкл",
+			"action_flag": 2,
+			"change_message": "[{\"changed\": {\"fields\": [\"\\u041e\\u043f\\u0438\\u0441\\u0430\\u043d\\u0438\\u0435\"]}}]"
+		}
+	},
+	{
+		"model": "admin.logentry",
+		"pk": 73,
+		"fields": {
+			"action_time": "2021-02-13T09:50:55.937Z",
+			"user": 1,
+			"content_type": 10,
+			"object_id": "12",
+			"object_repr": "Первый Медицинский",
+			"action_flag": 2,
+			"change_message": "[{\"changed\": {\"fields\": [\"\\u041e\\u043f\\u0438\\u0441\\u0430\\u043d\\u0438\\u0435\"]}}]"
+		}
+	},
+	{
+		"model": "admin.logentry",
+		"pk": 74,
+		"fields": {
+			"action_time": "2021-02-13T09:51:07.593Z",
+			"user": 1,
+			"content_type": 10,
+			"object_id": "13",
+			"object_repr": "Цветочный салон Орхидея",
+			"action_flag": 2,
+			"change_message": "[{\"changed\": {\"fields\": [\"\\u041e\\u043f\\u0438\\u0441\\u0430\\u043d\\u0438\\u0435\"]}}]"
+		}
+	},
+	{
+		"model": "admin.logentry",
+		"pk": 75,
+		"fields": {
+			"action_time": "2021-02-13T09:51:27.247Z",
+			"user": 1,
+			"content_type": 10,
+			"object_id": "13",
+			"object_repr": "Цветочный салон Орхидея",
+			"action_flag": 2,
+			"change_message": "[{\"changed\": {\"fields\": [\"\\u041e\\u043f\\u0438\\u0441\\u0430\\u043d\\u0438\\u0435\"]}}]"
+		}
+	},
+	{
+		"model": "admin.logentry",
+		"pk": 76,
+		"fields": {
+			"action_time": "2021-02-13T09:51:33.564Z",
+			"user": 1,
+			"content_type": 10,
+			"object_id": "9",
+			"object_repr": "МК-Восток",
+			"action_flag": 2,
+			"change_message": "[]"
+		}
+	},
+	{
+		"model": "admin.logentry",
+		"pk": 77,
+		"fields": {
+			"action_time": "2021-02-13T09:51:45.846Z",
+			"user": 1,
+			"content_type": 10,
+			"object_id": "8",
+			"object_repr": "SLAVDA",
+			"action_flag": 2,
+			"change_message": "[{\"changed\": {\"fields\": [\"\\u041e\\u043f\\u0438\\u0441\\u0430\\u043d\\u0438\\u0435\"]}}]"
+		}
+	},
+	{
+		"model": "admin.logentry",
+		"pk": 78,
+		"fields": {
+			"action_time": "2021-02-13T09:52:03.459Z",
+			"user": 1,
+			"content_type": 10,
+			"object_id": "7",
+			"object_repr": "ООО \"ЧОО Дисконт ДВ\"",
+			"action_flag": 2,
+			"change_message": "[{\"changed\": {\"fields\": [\"\\u041e\\u043f\\u0438\\u0441\\u0430\\u043d\\u0438\\u0435\"]}}]"
+		}
+	},
+	{
+		"model": "admin.logentry",
+		"pk": 79,
+		"fields": {
+			"action_time": "2021-02-13T09:52:37.633Z",
+			"user": 1,
+			"content_type": 10,
+			"object_id": "6",
+			"object_repr": "Галактика",
+			"action_flag": 2,
+			"change_message": "[{\"changed\": {\"fields\": [\"\\u041e\\u043f\\u0438\\u0441\\u0430\\u043d\\u0438\\u0435\"]}}]"
+		}
+	},
+	{
+		"model": "admin.logentry",
+		"pk": 80,
+		"fields": {
+			"action_time": "2021-02-13T09:53:00.881Z",
+			"user": 1,
+			"content_type": 10,
+			"object_id": "5",
+			"object_repr": "Войска Национальной Гвардии Восточного округа Российской Федерации",
+			"action_flag": 2,
+			"change_message": "[{\"changed\": {\"fields\": [\"\\u041e\\u043f\\u0438\\u0441\\u0430\\u043d\\u0438\\u0435\"]}}]"
+		}
+	},
+	{
+		"model": "admin.logentry",
+		"pk": 81,
+		"fields": {
+			"action_time": "2021-02-13T09:53:13.739Z",
+			"user": 1,
+			"content_type": 10,
+			"object_id": "5",
+			"object_repr": "Войска Национальной Гвардии Восточного округа Российской Федерации",
+			"action_flag": 2,
+			"change_message": "[{\"changed\": {\"fields\": [\"\\u041e\\u043f\\u0438\\u0441\\u0430\\u043d\\u0438\\u0435\"]}}]"
+		}
+	},
+	{
+		"model": "admin.logentry",
+		"pk": 82,
+		"fields": {
+			"action_time": "2021-02-13T09:53:34.584Z",
+			"user": 1,
+			"content_type": 10,
+			"object_id": "4",
+			"object_repr": "АО Стройсервис",
+			"action_flag": 2,
+			"change_message": "[{\"changed\": {\"fields\": [\"\\u041e\\u043f\\u0438\\u0441\\u0430\\u043d\\u0438\\u0435\"]}}]"
+		}
+	},
+	{
+		"model": "admin.logentry",
+		"pk": 83,
+		"fields": {
+			"action_time": "2021-02-13T09:53:59.065Z",
+			"user": 1,
+			"content_type": 10,
+			"object_id": "3",
+			"object_repr": "YourMOVE",
+			"action_flag": 2,
+			"change_message": "[{\"changed\": {\"fields\": [\"\\u041e\\u043f\\u0438\\u0441\\u0430\\u043d\\u0438\\u0435\"]}}]"
+		}
+	},
+	{
+		"model": "admin.logentry",
+		"pk": 84,
+		"fields": {
+			"action_time": "2021-02-13T09:54:07.634Z",
+			"user": 1,
+			"content_type": 10,
+			"object_id": "2",
+			"object_repr": "DVHAB.RU",
+			"action_flag": 2,
+			"change_message": "[]"
+		}
+	},
+	{
+		"model": "admin.logentry",
+		"pk": 85,
+		"fields": {
+			"action_time": "2021-02-13T09:55:28.119Z",
+			"user": 1,
+			"content_type": 10,
+			"object_id": "1",
+			"object_repr": "WhatZap",
+			"action_flag": 2,
+			"change_message": "[{\"changed\": {\"fields\": [\"\\u041e\\u043f\\u0438\\u0441\\u0430\\u043d\\u0438\\u0435\"]}}]"
+		}
+	},
+	{
+		"model": "admin.logentry",
+		"pk": 86,
+		"fields": {
+			"action_time": "2021-02-13T10:04:53.064Z",
+			"user": 1,
+			"content_type": 10,
+			"object_id": "12",
+			"object_repr": "Первый Медицинский",
+			"action_flag": 2,
+			"change_message": "[{\"changed\": {\"name\": \"\\u041b\\u043e\\u0433\\u043e\\u0442\\u0438\\u043f \\u043f\\u0430\\u0440\\u0442\\u043d\\u0435\\u0440\\u0430\", \"object\": \"/media/%D0%9F%D0%B5%D1%80%D0%B2%D1%8B%D0%B9_%D0%9C%D0%B5%D0%B4%D0%B8%D1%86%D0%B8%D0%BD%D1%81%D0%BA%D0%B8%D0%B9_CsnqufJ.png\", \"fields\": [\"\\u041b\\u043e\\u0433\\u043e\\u0442\\u0438\\u043f \\u043f\\u0430\\u0440\\u0442\\u043d\\u0435\\u0440\\u0430\"]}}]"
+		}
+	},
+	{
+		"model": "admin.logentry",
+		"pk": 87,
+		"fields": {
+			"action_time": "2021-02-13T23:26:26.507Z",
+			"user": 1,
+			"content_type": 12,
+			"object_id": "1",
+			"object_repr": "г. Хабаровск\r\n\r\nКлубы Кудо\r\n1. СК КУДО ДЗЮКУ, ул. Свердлова 30 а\r\n2. СК КИМЭ, ул. Краснореченская 92\r\n3. СК ВОСТОК, ул. Краснореченская 74\r\n4. СК РОССИЧ, ул. Суворова 80\r\n5. СК ЯВАРА АМУР , ул. Ленина",
+			"action_flag": 2,
+			"change_message": "[{\"changed\": {\"fields\": [\"\\u0410\\u0434\\u0440\\u0435\\u0441\\u0430\"]}}]"
+		}
+	},
+	{
+		"model": "auth.permission",
+		"pk": 1,
+		"fields": {
+			"name": "Can add log entry",
+			"content_type": 1,
+			"codename": "add_logentry"
+		}
+	},
+	{
+		"model": "auth.permission",
+		"pk": 2,
+		"fields": {
+			"name": "Can change log entry",
+			"content_type": 1,
+			"codename": "change_logentry"
+		}
+	},
+	{
+		"model": "auth.permission",
+		"pk": 3,
+		"fields": {
+			"name": "Can delete log entry",
+			"content_type": 1,
+			"codename": "delete_logentry"
+		}
+	},
+	{
+		"model": "auth.permission",
+		"pk": 4,
+		"fields": {
+			"name": "Can view log entry",
+			"content_type": 1,
+			"codename": "view_logentry"
+		}
+	},
+	{
+		"model": "auth.permission",
+		"pk": 5,
+		"fields": {
+			"name": "Can add permission",
+			"content_type": 2,
+			"codename": "add_permission"
+		}
+	},
+	{
+		"model": "auth.permission",
+		"pk": 6,
+		"fields": {
+			"name": "Can change permission",
+			"content_type": 2,
+			"codename": "change_permission"
+		}
+	},
+	{
+		"model": "auth.permission",
+		"pk": 7,
+		"fields": {
+			"name": "Can delete permission",
+			"content_type": 2,
+			"codename": "delete_permission"
+		}
+	},
+	{
+		"model": "auth.permission",
+		"pk": 8,
+		"fields": {
+			"name": "Can view permission",
+			"content_type": 2,
+			"codename": "view_permission"
+		}
+	},
+	{
+		"model": "auth.permission",
+		"pk": 9,
+		"fields": {
+			"name": "Can add group",
+			"content_type": 3,
+			"codename": "add_group"
+		}
+	},
+	{
+		"model": "auth.permission",
+		"pk": 10,
+		"fields": {
+			"name": "Can change group",
+			"content_type": 3,
+			"codename": "change_group"
+		}
+	},
+	{
+		"model": "auth.permission",
+		"pk": 11,
+		"fields": {
+			"name": "Can delete group",
+			"content_type": 3,
+			"codename": "delete_group"
+		}
+	},
+	{
+		"model": "auth.permission",
+		"pk": 12,
+		"fields": {
+			"name": "Can view group",
+			"content_type": 3,
+			"codename": "view_group"
+		}
+	},
+	{
+		"model": "auth.permission",
+		"pk": 13,
+		"fields": {
+			"name": "Can add user",
+			"content_type": 4,
+			"codename": "add_user"
+		}
+	},
+	{
+		"model": "auth.permission",
+		"pk": 14,
+		"fields": {
+			"name": "Can change user",
+			"content_type": 4,
+			"codename": "change_user"
+		}
+	},
+	{
+		"model": "auth.permission",
+		"pk": 15,
+		"fields": {
+			"name": "Can delete user",
+			"content_type": 4,
+			"codename": "delete_user"
+		}
+	},
+	{
+		"model": "auth.permission",
+		"pk": 16,
+		"fields": {
+			"name": "Can view user",
+			"content_type": 4,
+			"codename": "view_user"
+		}
+	},
+	{
+		"model": "auth.permission",
+		"pk": 17,
+		"fields": {
+			"name": "Can add content type",
+			"content_type": 5,
+			"codename": "add_contenttype"
+		}
+	},
+	{
+		"model": "auth.permission",
+		"pk": 18,
+		"fields": {
+			"name": "Can change content type",
+			"content_type": 5,
+			"codename": "change_contenttype"
+		}
+	},
+	{
+		"model": "auth.permission",
+		"pk": 19,
+		"fields": {
+			"name": "Can delete content type",
+			"content_type": 5,
+			"codename": "delete_contenttype"
+		}
+	},
+	{
+		"model": "auth.permission",
+		"pk": 20,
+		"fields": {
+			"name": "Can view content type",
+			"content_type": 5,
+			"codename": "view_contenttype"
+		}
+	},
+	{
+		"model": "auth.permission",
+		"pk": 21,
+		"fields": {
+			"name": "Can add session",
+			"content_type": 6,
+			"codename": "add_session"
+		}
+	},
+	{
+		"model": "auth.permission",
+		"pk": 22,
+		"fields": {
+			"name": "Can change session",
+			"content_type": 6,
+			"codename": "change_session"
+		}
+	},
+	{
+		"model": "auth.permission",
+		"pk": 23,
+		"fields": {
+			"name": "Can delete session",
+			"content_type": 6,
+			"codename": "delete_session"
+		}
+	},
+	{
+		"model": "auth.permission",
+		"pk": 24,
+		"fields": {
+			"name": "Can view session",
+			"content_type": 6,
+			"codename": "view_session"
+		}
+	},
+	{
+		"model": "auth.permission",
+		"pk": 25,
+		"fields": {
+			"name": "Can add Статью",
+			"content_type": 7,
+			"codename": "add_article"
+		}
+	},
+	{
+		"model": "auth.permission",
+		"pk": 26,
+		"fields": {
+			"name": "Can change Статью",
+			"content_type": 7,
+			"codename": "change_article"
+		}
+	},
+	{
+		"model": "auth.permission",
+		"pk": 27,
+		"fields": {
+			"name": "Can delete Статью",
+			"content_type": 7,
+			"codename": "delete_article"
+		}
+	},
+	{
+		"model": "auth.permission",
+		"pk": 28,
+		"fields": {
+			"name": "Can view Статью",
+			"content_type": 7,
+			"codename": "view_article"
+		}
+	},
+	{
+		"model": "auth.permission",
+		"pk": 29,
+		"fields": {
+			"name": "Can add Коментарий",
+			"content_type": 8,
+			"codename": "add_comment"
+		}
+	},
+	{
+		"model": "auth.permission",
+		"pk": 30,
+		"fields": {
+			"name": "Can change Коментарий",
+			"content_type": 8,
+			"codename": "change_comment"
+		}
+	},
+	{
+		"model": "auth.permission",
+		"pk": 31,
+		"fields": {
+			"name": "Can delete Коментарий",
+			"content_type": 8,
+			"codename": "delete_comment"
+		}
+	},
+	{
+		"model": "auth.permission",
+		"pk": 32,
+		"fields": {
+			"name": "Can view Коментарий",
+			"content_type": 8,
+			"codename": "view_comment"
+		}
+	},
+	{
+		"model": "auth.permission",
+		"pk": 33,
+		"fields": {
+			"name": "Can add Фотография статьи",
+			"content_type": 9,
+			"codename": "add_articleimage"
+		}
+	},
+	{
+		"model": "auth.permission",
+		"pk": 34,
+		"fields": {
+			"name": "Can change Фотография статьи",
+			"content_type": 9,
+			"codename": "change_articleimage"
+		}
+	},
+	{
+		"model": "auth.permission",
+		"pk": 35,
+		"fields": {
+			"name": "Can delete Фотография статьи",
+			"content_type": 9,
+			"codename": "delete_articleimage"
+		}
+	},
+	{
+		"model": "auth.permission",
+		"pk": 36,
+		"fields": {
+			"name": "Can view Фотография статьи",
+			"content_type": 9,
+			"codename": "view_articleimage"
+		}
+	},
+	{
+		"model": "auth.permission",
+		"pk": 37,
+		"fields": {
+			"name": "Can add Спонсор",
+			"content_type": 10,
+			"codename": "add_sponsor"
+		}
+	},
+	{
+		"model": "auth.permission",
+		"pk": 38,
+		"fields": {
+			"name": "Can change Спонсор",
+			"content_type": 10,
+			"codename": "change_sponsor"
+		}
+	},
+	{
+		"model": "auth.permission",
+		"pk": 39,
+		"fields": {
+			"name": "Can delete Спонсор",
+			"content_type": 10,
+			"codename": "delete_sponsor"
+		}
+	},
+	{
+		"model": "auth.permission",
+		"pk": 40,
+		"fields": {
+			"name": "Can view Спонсор",
+			"content_type": 10,
+			"codename": "view_sponsor"
+		}
+	},
+	{
+		"model": "auth.permission",
+		"pk": 41,
+		"fields": {
+			"name": "Can add Логотип спонсора",
+			"content_type": 11,
+			"codename": "add_sponsorimage"
+		}
+	},
+	{
+		"model": "auth.permission",
+		"pk": 42,
+		"fields": {
+			"name": "Can change Логотип спонсора",
+			"content_type": 11,
+			"codename": "change_sponsorimage"
+		}
+	},
+	{
+		"model": "auth.permission",
+		"pk": 43,
+		"fields": {
+			"name": "Can delete Логотип спонсора",
+			"content_type": 11,
+			"codename": "delete_sponsorimage"
+		}
+	},
+	{
+		"model": "auth.permission",
+		"pk": 44,
+		"fields": {
+			"name": "Can view Логотип спонсора",
+			"content_type": 11,
+			"codename": "view_sponsorimage"
+		}
+	},
+	{
+		"model": "auth.permission",
+		"pk": 45,
+		"fields": {
+			"name": "Can add Контакты",
+			"content_type": 12,
+			"codename": "add_contact"
+		}
+	},
+	{
+		"model": "auth.permission",
+		"pk": 46,
+		"fields": {
+			"name": "Can change Контакты",
+			"content_type": 12,
+			"codename": "change_contact"
+		}
+	},
+	{
+		"model": "auth.permission",
+		"pk": 47,
+		"fields": {
+			"name": "Can delete Контакты",
+			"content_type": 12,
+			"codename": "delete_contact"
+		}
+	},
+	{
+		"model": "auth.permission",
+		"pk": 48,
+		"fields": {
+			"name": "Can view Контакты",
+			"content_type": 12,
+			"codename": "view_contact"
+		}
+	},
+	{
+		"model": "auth.user",
+		"pk": 1,
+		"fields": {
+			"password": "pbkdf2_sha256$216000$GQArb6sTXrCf$iYdTVxBQHCddY+05PpD1bUeU3P1bUHtMa/YCQuaKyGM=",
+			"last_login": "2021-02-13T07:06:51.335Z",
+			"is_superuser": true,
+			"username": "admin",
+			"first_name": "",
+			"last_name": "",
+			"email": "nikitos1654@gmail.com",
+			"is_staff": true,
+			"is_active": true,
+			"date_joined": "2020-12-06T22:05:28.813Z",
+			"groups": [],
+			"user_permissions": []
+		}
+	},
+	{
+		"model": "contenttypes.contenttype",
+		"pk": 1,
+		"fields": {
+			"app_label": "admin",
+			"model": "logentry"
+		}
+	},
+	{
+		"model": "contenttypes.contenttype",
+		"pk": 2,
+		"fields": {
+			"app_label": "auth",
+			"model": "permission"
+		}
+	},
+	{
+		"model": "contenttypes.contenttype",
+		"pk": 3,
+		"fields": {
+			"app_label": "auth",
+			"model": "group"
+		}
+	},
+	{
+		"model": "contenttypes.contenttype",
+		"pk": 4,
+		"fields": {
+			"app_label": "auth",
+			"model": "user"
+		}
+	},
+	{
+		"model": "contenttypes.contenttype",
+		"pk": 5,
+		"fields": {
+			"app_label": "contenttypes",
+			"model": "contenttype"
+		}
+	},
+	{
+		"model": "contenttypes.contenttype",
+		"pk": 6,
+		"fields": {
+			"app_label": "sessions",
+			"model": "session"
+		}
+	},
+	{
+		"model": "contenttypes.contenttype",
+		"pk": 7,
+		"fields": {
+			"app_label": "blog",
+			"model": "article"
+		}
+	},
+	{
+		"model": "contenttypes.contenttype",
+		"pk": 8,
+		"fields": {
+			"app_label": "blog",
+			"model": "comment"
+		}
+	},
+	{
+		"model": "contenttypes.contenttype",
+		"pk": 9,
+		"fields": {
+			"app_label": "blog",
+			"model": "articleimage"
+		}
+	},
+	{
+		"model": "contenttypes.contenttype",
+		"pk": 10,
+		"fields": {
+			"app_label": "blog",
+			"model": "sponsor"
+		}
+	},
+	{
+		"model": "contenttypes.contenttype",
+		"pk": 11,
+		"fields": {
+			"app_label": "blog",
+			"model": "sponsorimage"
+		}
+	},
+	{
+		"model": "contenttypes.contenttype",
+		"pk": 12,
+		"fields": {
+			"app_label": "blog",
+			"model": "contact"
+		}
+	},
+	{
+		"model": "sessions.session",
+		"pk": "22yvw8lq166d7814fqv1cwzotzwdkq52",
+		"fields": {
+			"session_data": ".eJxVjDsOwjAQRO_iGln-Ba8p6TmDtfZ6cQA5UpxUiLuTSCmgmWLem3mLiOtS49rLHEcSF6HF6bdLmJ-l7YAe2O6TzFNb5jHJXZEH7fI2UXldD_fvoGKv25oVYy4uKE6ZjfWZgD3YrENBZ9FgAAayfsshWK-dAgrOac8GAp8H8fkCA3030A:1km2br:Ag6exqT2qxDEkwpCSwrKNmcJEWwGpW4FlwOzhguDBKo",
+			"expire_date": "2020-12-20T22:34:27.211Z"
+		}
+	},
+	{
+		"model": "sessions.session",
+		"pk": "e1d759von9kiuxbopx53sm3razsms2vu",
+		"fields": {
+			"session_data": ".eJxVjDsOwjAQRO_iGln-Ba8p6TmDtfZ6cQA5UpxUiLuTSCmgmWLem3mLiOtS49rLHEcSF6HF6bdLmJ-l7YAe2O6TzFNb5jHJXZEH7fI2UXldD_fvoGKv25oVYy4uKE6ZjfWZgD3YrENBZ9FgAAayfsshWK-dAgrOac8GAp8H8fkCA3030A:1km3ac:bxKcUpjNFSfRC6PPeK58CIunseQjjnlznSU7OPXTk-s",
+			"expire_date": "2020-12-20T23:37:14.123Z"
+		}
+	},
+	{
+		"model": "sessions.session",
+		"pk": "fjhw5ey2kokdtjzjjz03pubwb2j2c3d5",
+		"fields": {
+			"session_data": ".eJxVjDsOwjAQRO_iGln-Ba8p6TmDtfZ6cQA5UpxUiLuTSCmgmWLem3mLiOtS49rLHEcSF6HF6bdLmJ-l7YAe2O6TzFNb5jHJXZEH7fI2UXldD_fvoGKv25oVYy4uKE6ZjfWZgD3YrENBZ9FgAAayfsshWK-dAgrOac8GAp8H8fkCA3030A:1kzUJh:-5Ek3DI5pFxS9VCjHsTMCH92qRTHDLagcwmf3Ss3Izs",
+			"expire_date": "2021-01-27T00:47:17.868Z"
+		}
+	},
+	{
+		"model": "sessions.session",
+		"pk": "kdxc4mgj500ceqf3gpwcck034458f348",
+		"fields": {
+			"session_data": ".eJxVjDsOwjAQRO_iGln-Ba8p6TmDtfZ6cQA5UpxUiLuTSCmgmWLem3mLiOtS49rLHEcSF6HF6bdLmJ-l7YAe2O6TzFNb5jHJXZEH7fI2UXldD_fvoGKv25oVYy4uKE6ZjfWZgD3YrENBZ9FgAAayfsshWK-dAgrOac8GAp8H8fkCA3030A:1lAon2:0skbw1vSsnv8x1SqCzUy1BEdTa-xPYrfCmrBPJPAp0Q",
+			"expire_date": "2021-02-27T06:52:24.976Z"
+		}
+	},
+	{
+		"model": "sessions.session",
+		"pk": "l5mtkyku25y2nel8hl0i6vrwgmppys1v",
+		"fields": {
+			"session_data": ".eJxVjDsOwjAQRO_iGln-Ba8p6TmDtfZ6cQA5UpxUiLuTSCmgmWLem3mLiOtS49rLHEcSF6HF6bdLmJ-l7YAe2O6TzFNb5jHJXZEH7fI2UXldD_fvoGKv25oVYy4uKE6ZjfWZgD3YrENBZ9FgAAayfsshWK-dAgrOac8GAp8H8fkCA3030A:1lB4J0:wWei3cOpYDeHI6tGLDJqEmiAH8dVY-4vnq7CCNdPDrI",
+			"expire_date": "2021-02-27T23:26:26.992Z"
+		}
+	},
+	{
+		"model": "sessions.session",
+		"pk": "r3w19g1akpym8tu3ms1j22xj4wud4r8f",
+		"fields": {
+			"session_data": ".eJxVjDsOwjAQRO_iGln-Ba8p6TmDtfZ6cQA5UpxUiLuTSCmgmWLem3mLiOtS49rLHEcSF6HF6bdLmJ-l7YAe2O6TzFNb5jHJXZEH7fI2UXldD_fvoGKv25oVYy4uKE6ZjfWZgD3YrENBZ9FgAAayfsshWK-dAgrOac8GAp8H8fkCA3030A:1kzUWh:2St0OaT61tL9Szfv1PYV12_J_56G2vEdIFM1My9V8uM",
+			"expire_date": "2021-01-27T01:00:43.432Z"
+		}
+	},
+	{
+		"model": "blog.article",
+		"pk": 1,
+		"fields": {
+			"article_title": "V открытый Чемпионат и Первенство Хабаровского края по КУДО памяти Героя России Маслова И.В.",
+			"article_text": "Чемпионат и Первенство Хабаровского края по Кудо, посвященные памяти героя России Ивана Владимировича Маслова, прошли 25 ноября в городе Хабаровске.<br>\r\nСильнейшие спортсмены из разных городов и районов Хабаровского края, Амурской и Еврейской автономной областей встретились на татами, чтобы выявить сильнейших и получить путевки на участие в соревнованиях ДФО. В мероприятии приняли участие более 80 спортсменов: юноши, юниоры и девушки в возрасте от 12 до 18 лет и взрослые от 18 лет.\r\nСоревнования проходили на территории спортивной базы отряда спецназа «Тайфун»,  расположенной в п. Сосновка, войсковой часть 6767. Помимо зрелищных поединков в мероприятии приняли участие сотрудники спецназа «Тайфун», которые провели показательные выступления, с применением различных видов оружия.<br>\r\nОрганизатором пятых по счету соревнований выступила Федерация Кудо Хабаровского края, при поддержке Министерства Спорта и Молодежной политики Хабаровского края и Федеральной службы войск национальной гвардии Российской Федерации.<br>\r\nУчастников и победителей Чемпионата и Первенства Хабаровского края приветствовали почетные гости соревнований – родители Маслова И.В. Владимир Михайлович и Галина Васильевна.<br>\r\nТехнические результаты соревнований:<br>\r\nЮноши 12-15 лет:<br>\r\nКатегория 190 единиц:<br>\r\n1-е место Михмель В.<br>\r\n2-е место Герасименко Д.<br>\r\n3-е место Ярошевич М.<br>\r\nКатегория 200 единиц:<br>\r\n1-е место Чувашев П.<br>\r\n2-е место Домницкий Д.<br>\r\nКатегория 210 единиц:<br>\r\n1-е место Калинин Р.<br>\r\n2-е место Чернецов А.<br>\r\n3-е место Соловьев Н.<br>\r\nКатегория 220 единиц:<br>\r\n1-е место Калинин Б.<br>\r\n2-е место Богданов А.<br>\r\n3-е место Рожин Д.<br>\r\nКатегория 230 единиц:<br>\r\n1-е место Продан М.<br>\r\n2-е место Курбонов М.<br>\r\n3-е место Косицин Н.<br>\r\nКатегория 240 единиц:<br>\r\n1-е место Федоров Е.<br>\r\n2-е место Косарев Д.<br>\r\nКатегория 250 единиц:<br>\r\n1-е место Воронков В.<br>\r\n2-е место Заболотный В.<br>\r\nЮниоры 16-17 лет:<br>\r\nКатегория 240 единиц:<br>\r\n1-е место Ковалев Г.<br>\r\n2-е место Ершов А.<br>\r\nКатегория 250 единиц:<br>\r\n1-е место Дохняк Д.<br>\r\n2-е место Барков В.<br>\r\n3-е место Крылов В.<br>\r\nЮниорки 16-17 лет:<br>\r\nАбсолютная категория:<br>\r\n1-е место Бабковская А.<br>\r\n2-е место Арбатская Д.<br>\r\nВзрослые 18+ лет:<br>\r\nКатегория 230 единиц:<br>\r\n1-е место Архипенко Р.<br>\r\n2-е место Герасименко М.<br>\r\n3-е место Бараулин С.<br>\r\nКатегория 240 единиц:<br>\r\n1-е место Шарафутдинов С.<br>\r\n2-е место Матвеюк И.<br>\r\n3-е место Тимошенко Ф.<br>\r\nКатегория 250 единиц:<br>\r\n1-е место Магомедов И.<br>\r\n2-е место Карпов Д.<br>\r\n3-е место Шерстнев А.<br>\r\nКатегория 260 единиц:<br>\r\n1-е место Хлус М.<br>\r\n2-е место Меньшиков Д.<br>\r\n3-е место Антонюк А.<br>\r\nКатегория 270 единиц:<br>\r\n1-е место Пекарский Л.<br>\r\n2-место Чеченин А.<br>\r\n3-е место Прокопович А.<br>\r\nКатегория 270+ единиц:<br>\r\n1-е место Виноградов В.<br>\r\n2-е место Корепанов В.<br>\r\n3-е место Тюнев Е.<br>\r\nПриз за лучшую технику:<br>\r\nКалинин Роман, Чувашев Павел, Магомедов Ислам<br>\r\nПриз за волю к победе:<br>\r\nБогданов Алексей, Курбонов Мухаммеддикбол, Герасименко Михаил",
+			"article_date": "2020-12-01"
+		}
+	},
+	{
+		"model": "blog.article",
+		"pk": 2,
+		"fields": {
+			"article_title": "Хабаровский край принял участие в юбилейном XXV Чемпионате России по КУДО",
+			"article_text": "25 февраля 2018 года, в г.Москва, прошел XXV Чемпионат России по КУДО. Сильнейшие спортсмены с разных регионов страны прибыли на соревнования для выявления сильнейших в своих категориях. Чемпионат был проведен на высоком уровне, как и подобает юбилейному Чемпионату России по КУДО. Событие для Федерации КУДО знаковое, поэтому и тем желанее была победа для участников этих соревнований.  Воспитанник СК \"Восток\", г.Хабаровск, Янчук Никита, в составе сборной ДФО, продемонстрировал высочайшую технику и мастерство, но в упорной борьбе за первое место в своей категории уступил оппоненту и занял призовое второе место. <br>\r\n<br>\r\nСтоит отметить, что по результатам Чемпионата будет сформирована национальная сборная для участия в Чемпионате мира в ноябре 2018 в Токио. В нее войдут победители и серебряные призеры Чемпионата России 2018 года и Кубка мира, состоявшегося в 2017 году в Индии. Поздравляем призера Янчука Никиту и Хабаровское краевое отделение Федерации КУДО России с достойным выступлением!",
+			"article_date": "2020-12-07"
+		}
+	},
+	{
+		"model": "blog.article",
+		"pk": 4,
+		"fields": {
+			"article_title": "III Дальневосточные юношеские Игры боевых искусств",
+			"article_text": "В Хабаровске, 8 -11 марта 2018 года, в Универсальном краевом спортивном комплексе имени В. И. Ленина, в рамках Открытых Дальневосточных юношеских Игр боевых искусств, прошел турнир по КУДО.<br>\r\n<br>\r\nВ нем приняли участие спортсмены из Сахалинской и Амурской областей, ЕАО и Хабаровского края. В Гала-финале сошлись спортсмен из ЕАО Красюков Павел и спортсмен из Амурской области Паташев Андрей. В захватывающем и зрелищном поединке победу одержал спортсмен из ЕАО. Третье место в  данной категории завоевал спортсмен из Хабаровского края Бондин Богдан.",
+			"article_date": "2020-09-15"
+		}
+	},
+	{
+		"model": "blog.article",
+		"pk": 5,
+		"fields": {
+			"article_title": "Хабаровчане выиграли пять медалей чемпионата ДФО по КУДО.jpg",
+			"article_text": "В столице Приморья состоялся чемпионат Дальневосточного федерального округа по восточному боевому единоборству КУДО, посвященный памяти Героя Российской Федерации Германа Алексеевича Угрюмова. В соревнованиях выступили 164 спортсмена из Приморского и Хабаровского краев, Еврейской автономной, Сахалинской и Амурской областей. Хабаровчане выиграли на этом турнире пять медалей и три путевки на российские соревнования.",
+			"article_date": "2020-11-03"
+		}
+	},
+	{
+		"model": "blog.article",
+		"pk": 6,
+		"fields": {
+			"article_title": "Сборная Хабаровского края по кудо завоевала большинство наград на Кубке ДФО",
+			"article_text": "В Благовещенске прошел Кубок Дальнего Востока по восточному боевому единоборству – дисциплине кудо. На поединки съехались около сотни спортсменов из Приморского и Хабаровского краев, Амурской, Сахалинской и Еврейской автономной областей. В неофициальном командном зачете по количеству выигранных медалей сборная Хабаровского края заняла первое место.",
+			"article_date": "2020-10-01"
+		}
+	},
+	{
+		"model": "blog.article",
+		"pk": 7,
+		"fields": {
+			"article_title": "IV открытый Чемпионат и первенство Хабаровского края по КУДО памяти Героя России Маслова И.В.",
+			"article_text": "В воскресение, 20 ноября прошел ежегодный, открытый Чемпионат и первенство Хабаровского края по КУДО посвященный памяти Героя России, подполковника Маслова Ивана Владимировича. Данный турнир проводился уже в четвертый раз. В этом году площадкой для противостояния спортсменов стал спортивный комплекс «Авангард», расположенный в Краснофлотском районе города Хабаровска. А в этом году памятное мероприятие посетили особые гости, родители Героя.",
+			"article_date": "2020-09-01"
+		}
+	},
+	{
+		"model": "blog.article",
+		"pk": 8,
+		"fields": {
+			"article_title": "Победитель Первенства России по КУДО",
+			"article_text": "23 апреля в городе Москва состоялось первенство России по восточному боевому единоборству дисциплина КУДО. Представителями Хабаровского края были спортсмены Продан Михаил среди юнош в категория 200 ед., а так же Корепанов Владислав среди юниоров в категории 260+ ед.",
+			"article_date": "2020-05-13"
+		}
+	},
+	{
+		"model": "blog.article",
+		"pk": 9,
+		"fields": {
+			"article_title": "Кубок Дальневосточного Федерального Округа России по КУДО",
+			"article_text": "Впервые в Хабаровском Крае 8-9 апреля в поселке Солнечный прошел Кубок ДВФО по КУДО . В борьбе за Кубок приняли участие пятьдесят спортсменов из Хабаровска, Комсомольска -на-Амуре, п. Солнечный, п. Эльбан, Приморского края, Еврейской автономной области и Сахалинской области. <br>\r\n<br>\r\nРуководитель федерации КУДО ДВФО Александр Ясин отметил, что основными целями проведения турнира в поселке Солнечный являются популяризация и развитие восточного боевого единоборства КУДО, повышение мастерства спортсменов и квалификации судей, пропаганда здорового образа жизни.<br>\r\n<br>\r\n— Особенно хотел бы отметить высокий уровень Кубка ДВФО, организованного федерацией КУДО Хабаровского края и отделения федерации поселка Солнечный, турнир такого масштаба проходил здесь впервые, а также отличную техническую подготовку воспитанников федерации Дальнего Востока, — подчеркнул Александр Ясин.<br>\r\n<br>\r\nПервое командное место заняли спортсмены из Хабаровска, второе команда из Приморского края, третье из города Комсомольска-на-Амуре.<br>\r\n<br>\r\nИтоги :<br>\r\n<br>\r\nЮниоры :<br>\r\n<br>\r\n230 ед. :<br>\r\n2 место: Палыгин А. (Восток)<br>\r\n<br>\r\n240 ед. :<br>\r\n2 место: Ильин А (Кудо-27)<br>\r\n<br>\r\nВзрослые:<br>\r\n<br>\r\n230 ед. :<br>\r\n1 место: Абдулин В. (Скай)<br>\r\n<br>\r\n240 ед. :<br>\r\n3 место: Добросельский Е. (Восток)<br>\r\n<br>\r\n260 ед. :<br>\r\n1 место: Григорьев А. (Россич)<br>\r\n2 место: Казакевич В (Скай)<br>\r\n<br>\r\n270 ед. :<br>\r\n1 место: Сливка И. (Кудо-27)<br>\r\n2 место: Пекарский Л. (Восток)",
+			"article_date": "2020-09-10"
+		}
+	},
+	{
+		"model": "blog.article",
+		"pk": 10,
+		"fields": {
+			"article_title": "ТЕСТОВАЯ 9 новость",
+			"article_text": "xxx:<br>\r\nЛюди: хотели вакцину поскорее, поскорее, чтоб пандемия закончилась и сняли все ограничения<br>\r\nФармацевты: изо всех сил напряглись, сделали вакцины быстрее, чем когда-либо в истории человечества<br>\r\n<br>\r\nxxx:<br>\r\nТоже люди: ну нет, мы таким колоться не будем, оно плохо протестированно<br>",
+			"article_date": "2019-12-09"
+		}
+	},
+	{
+		"model": "blog.articleimage",
+		"pk": 1,
+		"fields": {
+			"article": 1,
+			"image": "V_открытый_Чемпионат_и_Первенство_Хабаровского_края_по_КУДО_памяти_Героя_России_Маслова_И.В..jpg"
+		}
+	},
+	{
+		"model": "blog.articleimage",
+		"pk": 2,
+		"fields": {
+			"article": 2,
+			"image": "Хабаровский_край_принял_участие_в_юбилейном_XXV_Чемпионате_России_по_КУДО.jpg"
+		}
+	},
+	{
+		"model": "blog.articleimage",
+		"pk": 4,
+		"fields": {
+			"article": 4,
+			"image": "III_Дальневосточные_юношеские_Игры_боевых_искусств.jpg"
+		}
+	},
+	{
+		"model": "blog.articleimage",
+		"pk": 5,
+		"fields": {
+			"article": 5,
+			"image": "Хабаровчане_выиграли_пять_медалей_чемпионата_ДФО_по_КУДО.jpg"
+		}
+	},
+	{
+		"model": "blog.articleimage",
+		"pk": 6,
+		"fields": {
+			"article": 6,
+			"image": "Сборная_Хабаровского_края_по_кудо_завоевала_большинство_наград_на_Кубке_ДФО.jpg"
+		}
+	},
+	{
+		"model": "blog.articleimage",
+		"pk": 7,
+		"fields": {
+			"article": 7,
+			"image": "IV_открытый_Чемпионат_и_первенство_Хабаровского_края_по_КУДО_памяти_Героя_России_Маслова_И.В..jpg"
+		}
+	},
+	{
+		"model": "blog.articleimage",
+		"pk": 8,
+		"fields": {
+			"article": 9,
+			"image": "Кубок_Дальневосточного_Федерального_Округа_России_по_КУДО.jpg"
+		}
+	},
+	{
+		"model": "blog.articleimage",
+		"pk": 9,
+		"fields": {
+			"article": 10,
+			"image": ".jpg"
+		}
+	},
+	{
+		"model": "blog.articleimage",
+		"pk": 10,
+		"fields": {
+			"article": 8,
+			"image": "Победитель_Первенства_России_по_КУДО.jpg"
+		}
+	},
+	{
+		"model": "blog.comment",
+		"pk": 1,
+		"fields": {
+			"article": 1,
+			"comment_text": "амывсмчя",
+			"comment_date": "2020-12-06T22:35:36.371Z"
+		}
+	},
+	{
+		"model": "blog.comment",
+		"pk": 2,
+		"fields": {
+			"article": 4,
+			"comment_text": "еыншкывнш",
+			"comment_date": "2020-12-07T00:00:46.531Z"
+		}
+	},
+	{
+		"model": "blog.comment",
+		"pk": 3,
+		"fields": {
+			"article": 4,
+			"comment_text": "нышныншвек",
+			"comment_date": "2020-12-07T00:00:53.421Z"
+		}
+	},
+	{
+		"model": "blog.sponsor",
+		"pk": 1,
+		"fields": {
+			"sponsor_title": "WhatZap",
+			"sponsor_text": "Адреса:\r\n\r\nГоловной офис\r\nХабаровск, ул. Трехгорная 92г\r\nОфис в Южном\r\nХабаровск, ул. Павла Морозова 54\r\n\r\nТелефон:\r\n8 924 314 40 50",
+			"sponsor_link": "https://www.whatzap.ru/"
+		}
+	},
+	{
+		"model": "blog.sponsor",
+		"pk": 2,
+		"fields": {
+			"sponsor_title": "DVHAB.RU",
+			"sponsor_text": "Адрес:\r\n г. Хабаровск, ул. Тургенева, д. 55\r\n\r\nАдрес для писем:\r\n680028, г. Хабаровск, ул. Калинина, д. 132, оф. 203",
+			"sponsor_link": "https://www.dvhab.ru/"
+		}
+	},
+	{
+		"model": "blog.sponsor",
+		"pk": 3,
+		"fields": {
+			"sponsor_title": "YourMOVE",
+			"sponsor_text": "Адрес\r\nг. Хабаровск, ​Комсомольская, 73Б\r\n\r\nТелефоны:\r\n8 (4212) 94 77 07\r\n8 924 314 77 07",
+			"sponsor_link": "https://www.instagram.com/your_move_27/?hl=ru"
+		}
+	},
+	{
+		"model": "blog.sponsor",
+		"pk": 4,
+		"fields": {
+			"sponsor_title": "АО Стройсервис",
+			"sponsor_text": "Адрес\r\nг. Хабаровск, ул. Двойная, 5\r\n\r\nТелефоны\r\n8 962 502 61 31 (62 61 31)\r\n8 962 587 11 55 (69 11 55)",
+			"sponsor_link": "http://www.xn--27-dlclqd8apdfdee.xn--p1ai/"
+		}
+	},
+	{
+		"model": "blog.sponsor",
+		"pk": 5,
+		"fields": {
+			"sponsor_title": "Войска Национальной Гвардии Восточного округа Российской Федерации",
+			"sponsor_text": "Адрес\r\n680030, г. Хабаровск, ул. Ленина, д. 54 \r\n\r\nТелефоны\r\n8 (4212) 31 29 98 (\"Горячая линия\")\r\n8 (4212) 38 01 28 (для СМИ)",
+			"sponsor_link": "https://rosguard.gov.ru/ru/page/index/vostochnyj-okrug-1"
+		}
+	},
+	{
+		"model": "blog.sponsor",
+		"pk": 6,
+		"fields": {
+			"sponsor_title": "Галактика",
+			"sponsor_text": "Адрес\r\nг. Хабаровск, пер. Призывной 1\r\n\r\nТелефон\r\n8 962 222 88 88 Администратор\r\n8 962 501 98 98 Директор",
+			"sponsor_link": "http://galaktika27.ru/"
+		}
+	},
+	{
+		"model": "blog.sponsor",
+		"pk": 7,
+		"fields": {
+			"sponsor_title": "ООО \"ЧОО Дисконт ДВ\"",
+			"sponsor_text": "Адрес:\r\nг. Хабаровск, Ул. Павла Морозова, д. 46, оф. 53 (БЦ \"Флагман\")\r\n\r\nТелефон:\r\n8 (4212) 62 50 68",
+			"sponsor_link": "http://www.diskont-dv.ru/"
+		}
+	},
+	{
+		"model": "blog.sponsor",
+		"pk": 8,
+		"fields": {
+			"sponsor_title": "SLAVDA",
+			"sponsor_text": "Телефон:\r\n8 421 275 17 23",
+			"sponsor_link": "https://dostavka-voda.ru/3-xabarovsk"
+		}
+	},
+	{
+		"model": "blog.sponsor",
+		"pk": 9,
+		"fields": {
+			"sponsor_title": "МК-Восток",
+			"sponsor_text": "​адрес:\r\nг. Хабаровск, Попова, 3/1\r\n\r\nТелефон:\r\n8 914 155 72 62",
+			"sponsor_link": "---"
+		}
+	},
+	{
+		"model": "blog.sponsor",
+		"pk": 10,
+		"fields": {
+			"sponsor_title": "Майкл",
+			"sponsor_text": "Адрес:\r\n680501 Хабаровский край, с. Корсаково-1, ул. Прибрежная 8, база отдыха «Гран-при» \r\n\r\nТелефон:\r\n8 924 403 67 37",
+			"sponsor_link": "https://michaelcatering.ru/"
+		}
+	},
+	{
+		"model": "blog.sponsor",
+		"pk": 11,
+		"fields": {
+			"sponsor_title": "Министерство спорта и молодежной политики Хабаровского края",
+			"sponsor_text": "Адрес:\r\n680000, г. Хабаровск, ул. Муравьева-Амурского, д. 32, каб. 522\r\n\r\nТелефон:\r\n8 (4212) 32-40-40",
+			"sponsor_link": "https://minsport.khabkrai.ru/"
+		}
+	},
+	{
+		"model": "blog.sponsor",
+		"pk": 12,
+		"fields": {
+			"sponsor_title": "Первый Медицинский",
+			"sponsor_text": "Адрес:\r\n680038, г. Хабаровск, ул. Джамбула, д. 20\r\n\r\nТелефон: \r\n8 (4212) 77 00 19",
+			"sponsor_link": "https://fortemed.ru/"
+		}
+	},
+	{
+		"model": "blog.sponsor",
+		"pk": 13,
+		"fields": {
+			"sponsor_title": "Цветочный салон Орхидея",
+			"sponsor_text": "Адреса:\r\nг. Хабаровск, ул. Муравьёва-Амурского, 15\r\nг. Хабаровск, ул. Карла Маркса 124\r\n\r\nТелефон: 8 (4212) 698 698",
+			"sponsor_link": "https://habarovsk.orhideya-flo.ru/"
+		}
+	},
+	{
+		"model": "blog.sponsor",
+		"pk": 14,
+		"fields": {
+			"sponsor_title": "ЧОО \"Добрыня\"",
+			"sponsor_text": "111",
+			"sponsor_link": "111"
+		}
+	},
+	{
+		"model": "blog.sponsorimage",
+		"pk": 1,
+		"fields": {
+			"sponsor": 1,
+			"image": "whatzap_лого.png"
+		}
+	},
+	{
+		"model": "blog.sponsorimage",
+		"pk": 2,
+		"fields": {
+			"sponsor": 2,
+			"image": "DVHAB.png"
+		}
+	},
+	{
+		"model": "blog.sponsorimage",
+		"pk": 3,
+		"fields": {
+			"sponsor": 3,
+			"image": "YOUR_MOVE.jpg"
+		}
+	},
+	{
+		"model": "blog.sponsorimage",
+		"pk": 4,
+		"fields": {
+			"sponsor": 4,
+			"image": "АО_Стройсервис.png"
+		}
+	},
+	{
+		"model": "blog.sponsorimage",
+		"pk": 5,
+		"fields": {
+			"sponsor": 5,
+			"image": "Войска_Национальной_Гвардии_Восточного_округа_Российской_Федерации.png"
+		}
+	},
+	{
+		"model": "blog.sponsorimage",
+		"pk": 6,
+		"fields": {
+			"sponsor": 6,
+			"image": "Галактика.png"
+		}
+	},
+	{
+		"model": "blog.sponsorimage",
+		"pk": 7,
+		"fields": {
+			"sponsor": 7,
+			"image": "Дисконт-ДВ.png"
+		}
+	},
+	{
+		"model": "blog.sponsorimage",
+		"pk": 8,
+		"fields": {
+			"sponsor": 8,
+			"image": "Logo_SLAVDA1.png"
+		}
+	},
+	{
+		"model": "blog.sponsorimage",
+		"pk": 9,
+		"fields": {
+			"sponsor": 9,
+			"image": "mk-vostok.jpg"
+		}
+	},
+	{
+		"model": "blog.sponsorimage",
+		"pk": 10,
+		"fields": {
+			"sponsor": 10,
+			"image": "Лого_Майкл.jpg"
+		}
+	},
+	{
+		"model": "blog.sponsorimage",
+		"pk": 11,
+		"fields": {
+			"sponsor": 11,
+			"image": "Министерство_спорта_и_молодежной_политики_Хабаровского_края.png"
+		}
+	},
+	{
+		"model": "blog.sponsorimage",
+		"pk": 12,
+		"fields": {
+			"sponsor": 12,
+			"image": "Первый_Медицинский_CsnqufJ.png"
+		}
+	},
+	{
+		"model": "blog.sponsorimage",
+		"pk": 13,
+		"fields": {
+			"sponsor": 13,
+			"image": "Цветочный_салон_Орхидея.png"
+		}
+	},
+	{
+		"model": "blog.sponsorimage",
+		"pk": 14,
+		"fields": {
+			"sponsor": 14,
+			"image": "logo_gotovo_v1-.png"
+		}
+	},
+	{
+		"model": "blog.contact",
+		"pk": 1,
+		"fields": {
+			"contact_adress": "г. Хабаровск\r\n\r\nКлубы Кудо\r\n1. СК КУДО ДЗЮКУ, ул. Свердлова 30 а\r\n2. СК КИМЭ, ул. Краснореченская 92\r\n3. СК ВОСТОК, ул. Краснореченская 74\r\n4. СК РОССИЧ, ул. Суворова 80\r\n5. СК ЯВАРА АМУР , ул. Ленина 58\r\n\r\nОтделения\r\nг. Комсомольск-на- Амуре\r\nул. Ленина 76\r\n\r\nг. Амурск\r\nул. Лесная 4-а\r\n\r\nПоселок Солнечный\r\nСК РУСЬ МОЛОДАЯ, ул. Парковая, 3",
+			"contact_email": "Email: info@kudo-khv.ru",
+			"contact_phone": "Телефон:8 (4212) 25-40-10",
+			"contact_instagram": "https://www.instagram.com/kudo_khv_azuma_school"
+		}
+	}
+]

@@ -98,8 +98,15 @@ WSGI_APPLICATION = 'mysait.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        # 'ENGINE': 'django.db.backends.sqlite3',
+        # 'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'my_app',
+        'USER': 'root',
+        'PASSWORD': '98201544',
+        'HOST': 'localhost',
+        'PORT': '',
+        'OPTIONS': {'charset': 'utf8mb4'},
     }
 }
 

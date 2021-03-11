@@ -5,6 +5,7 @@ from django.utils import timezone
 from django.db.models import ImageField
 from django.core.exceptions import ValidationError
 from PIL import Image, ImageEnhance
+from datetime import date
 
 # Create your models here.
 
@@ -38,7 +39,7 @@ if __name__ == "__main__":
 class Article(models.Model):
     article_title = models.CharField('Заголовок статьи', max_length=200)
     article_text = models.TextField('Текст статьи')
-    article_date = models.DateField('Дата публикации')
+    article_date = models.DateField('Дата публикации', default=date.today)
     #article_image = models.ImageField('Фотографии статьи')
 
     def __str__(self):
