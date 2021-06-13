@@ -17,7 +17,7 @@ urlpatterns = [
     url(r'^favicon\.ico$', RedirectView.as_view(
         url='/static/blog/img/favicon.ico', permanent=True)),
     path('QLDuk6dyOFrh59b9pf6hJyPnN', views.guard, name='guard'),
-    #path('email', include('send_email.urls')),
+    path('email', include('send_email.urls')),
     # для поиска
 
 

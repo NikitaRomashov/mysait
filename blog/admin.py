@@ -32,6 +32,7 @@ class SponsorImageAdmin(admin.ModelAdmin):
 # TabularInline - как в админке будет выводится
 class SponsorImageInline(admin.TabularInline):
     model = SponsorImage
+    #Добавление нескольких изображений
     max_num = 1
     #extra = 0
     # Добваления поля которое нельзя редактировать
@@ -47,12 +48,12 @@ class SponsorAdmin(admin.ModelAdmin):
     inlines = [SponsorImageInline, ]
 
 
-admin.site.register(Comment)
-admin.site.register(ArticleImage, ArticleImageAdmin)
+# admin.site.register(Comment)
+#admin.site.register(ArticleImage, ArticleImageAdmin)
 admin.site.register(Article, ArticleAdmin)
 
 
-admin.site.register(SponsorImage, SponsorImageAdmin)
+#admin.site.register(SponsorImage, SponsorImageAdmin)
 admin.site.register(Sponsor, SponsorAdmin)
 
 

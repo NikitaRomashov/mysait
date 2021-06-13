@@ -13,6 +13,28 @@
 	<div class="wrapper">
 
 		<header class="header">
+			<div class="auth-header ">
+				<div class="auth-header__container _container">
+					<div class="auth-header__items">
+						{% if request.user.is_authenticated %}
+						{% if user.first_name %}
+
+						<a href="{% url 'accounts:logout' %}" class="auth-header__item" title="Тыкни чтобы выйти">
+							{{user.first_name }}
+							{{ user.last_name }}</a>
+						{% else %}
+						<a href="{% url 'accounts:logout' %}" class="auth-header__item" title="Тыкни чтобы выйти">{{ user.name
+							}} </a>
+						{% endif %}
+						{% else %}
+						<a href="{% url 'accounts:register' %}" class="auth-header__item">Регистрация</a>
+						<a href="{% url 'accounts:login' %}" class="auth-header__item">Логин</a>
+						<a href="/login/vk-oauth2" class="auth-header__item auth-header__item_vk"><img
+								src="{% static 'blog/img/icons/social/vk_icon.svg' %}" alt="Вход через ВК"></a>
+						{% endif %}
+					</div>
+				</div>
+			</div>
 			<div class="header__main">
 				<div class="header__content _container">
 					<div class="header__column ">
@@ -24,18 +46,20 @@
 						</a>
 					</div>
 					<div class="header__column">
-						<!--
-				<form class="header__search-form" action="{% url 'blog:search_in_articles' %}" method="get">
-					<input class="header__search-input" name="q" type="text" placeholder="Запрос...">
-					<input class="header__search-submit" type="image" src="img/icons/searh_icon.png" alt="">
-				</form>
--->
+
+						<form class="header__search-form" action="{% url 'blog:search_in_articles' %}" method="get">
+							<input class="header__search-input" name="q" type="text" placeholder="Запрос...">
+							<input class="header__search-submit" type="image"
+								src="{% static 'blog/img/icons/searh_icon.png' %}" alt="">
+						</form>
+
 						<nav class="header__menu">
 							<ul class="header__list">
 								<li><a href="{% url 'blog:home' %}" class="header__link">Новости</a></li>
 								<li><a href="{% url 'blog:about' %}" class="header__link">Контакты</a></li>
 							</ul>
 						</nav>
+
 					</div>
 				</div>
 			</div>
@@ -62,12 +86,18 @@
 			<div class="sponsors_container _container">
 				<div class="sponsors__slider slider-sponsors _swiper">
 					{% for sponsor in context_sponsors %}
-					<a href="{% url 'blog:sponsor-detail' sponsor.id %}" class="slider-sponsors__slide">
-						<div class="slider-sponsors__img _ibg2">
-							<img src="{{ MEDIA_URL }}{{ sponsor.images.first.image.url }}" alt="">
-						</div>
-					</a>
-					{% endfor %}
+
+					{% if sponsor.sponsor_link %}
+					<a href="{{sponsor.sponsor_link}}" target="_blank" class="slider-sponsors__slide">
+						{% else %}
+						<a href="{% url 'blog:sponsor-detail' sponsor.id %}" class="slider-sponsors__slide">
+							{% endif %}
+							<div class="slider-sponsors__img _ibg2">
+								<img src="{{ MEDIA_URL }}{{ sponsor.images.first.image.url }}" alt="">
+							</div>
+						</a>
+
+						{% endfor %}
 				</div>
 			</div>
 		</div>

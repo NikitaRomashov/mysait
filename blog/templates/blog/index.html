@@ -30,10 +30,17 @@
 				<a href="" class="news__title">{{article.article_title}}</a>
 				<div class="news__item">
 					<div class="news__head">
-						<a href="{{ MEDIA_URL }}{{ article.images.first.image.url }}" target="_blank"
-							class="news__image _ibg">
-							<img src="{{ MEDIA_URL }}{{ article.images.first.image.url }}" alt="">
-						</a>
+						<div class="news__head__images">
+							{% for img in article.images.all %}
+							<!--<a href="{{ MEDIA_URL }}{{ article.images.first.image.url }}" target="_blank"
+								class="news__image _ibg">
+								<img src="{{ MEDIA_URL }}{{ article.images.first.image.url }}" alt="">
+							</a>-->
+							<a href="{{ MEDIA_URL }}{{ img.image.url }}" target="_blank" class="news__image _ibg ">
+								<img src="{{ MEDIA_URL }}{{ img.image.url }}" alt="">
+							</a>
+							{% endfor %}
+						</div>
 						<div class="news__pub-date pub-date">
 							{{article.article_date}}
 						</div>

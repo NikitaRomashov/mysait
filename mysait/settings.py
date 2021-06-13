@@ -43,20 +43,20 @@ INSTALLED_APPS = [
     'blog',
     'send_email',
 
-    # 'accounts',
-    # 'social_django'
+    'accounts',
+    'social_django'
 ]
 
-
-'''AUTHENTICATION_BACKENDS = (
+LOGIN_REDIRECT_URL = '/'
+AUTHENTICATION_BACKENDS = (
     # бекенд авторизации через ВКонтакте
-    # 'django.contrib.auth.backends.ModelBackend',
-    # 'social_core.backends.vk.VKOAuth2',
+    'django.contrib.auth.backends.ModelBackend',
+    'social_core.backends.vk.VKOAuth2',
     # бекенд классической аутентификации, чтобы работала авторизация через обычный логин и пароль
-)'''
+)
 
-#SOCIAL_AUTH_VK_OAUTH2_KEY = '7639343'
-#SOCIAL_AUTH_VK_OAUTH2_SECRET = '1TsPm5huWtZBBPcKFivg'
+SOCIAL_AUTH_VK_OAUTH2_KEY = '7639343'
+SOCIAL_AUTH_VK_OAUTH2_SECRET = '1TsPm5huWtZBBPcKFivg'
 
 
 MIDDLEWARE = [
@@ -84,7 +84,7 @@ TEMPLATES = [
                 'django.contrib.auth.context_processors.auth',
                 'django.contrib.messages.context_processors.messages',
                 "blog.context_processors.sponsors",
-                # 'social_django.context_processors.backends',
+                'social_django.context_processors.backends',
             ],
         },
     },
@@ -98,15 +98,11 @@ WSGI_APPLICATION = 'mysait.wsgi.application'
 
 DATABASES = {
     'default': {
-        # 'ENGINE': 'django.db.backends.sqlite3',
-        # 'NAME': BASE_DIR / 'db.sqlite3',
-        'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'romashov$romashov_bd',
-        'USER': 'romashov',
-        'PASSWORD': '98201544Q',
-        'HOST': 'romashov.mysql.pythonanywhere-services.com',
-    }
 
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': BASE_DIR / 'db.sqlite3',
+
+    }
 }
 
 # Password validation
